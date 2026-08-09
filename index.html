@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>杭州初中 · 梯区位测验</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <div class="brand">
+        <span class="brand-mark">杭</span>
+        <span class="brand-text">初中梯位</span>
+      </div>
+      <div class="topbar-meta" id="bankMeta"></div>
+    </header>
+
+    <main class="stage">
+      <section class="panel" id="setupView">
+        <div class="panel-head">
+          <h1>梯区位测验</h1>
+          <p class="sub" id="bankSummary"></p>
+        </div>
+        <div class="field">
+          <div class="field-label">题型</div>
+          <div class="segmented" id="modeSeg">
+            <button class="seg-btn active" data-mode="mix" type="button">混合</button>
+            <button class="seg-btn" data-mode="district" type="button">地区</button>
+            <button class="seg-btn" data-mode="tier" type="button">梯队</button>
+          </div>
+        </div>
+        <div class="field">
+          <div class="field-label">题量</div>
+          <div class="segmented" id="countSeg">
+            <button class="seg-btn" data-count="10" type="button">10</button>
+            <button class="seg-btn active" data-count="20" type="button">20</button>
+            <button class="seg-btn" data-count="30" type="button">30</button>
+            <button class="seg-btn" data-count="0" type="button">全部</button>
+          </div>
+        </div>
+        <button class="primary-btn" id="startBtn" type="button">开始考试</button>
+      </section>
+
+      <section class="panel hidden" id="quizView">
+        <div class="quiz-head">
+          <div class="progress-meta">
+            <span id="qIndex"></span>
+            <span id="qScore"></span>
+          </div>
+          <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
+        </div>
+        <div class="question" id="questionBox"></div>
+        <div class="options" id="optionsBox"></div>
+        <div class="feedback hidden" id="feedbackBox"></div>
+        <div class="quiz-actions">
+          <button class="ghost-btn" id="quitBtn" type="button">退出</button>
+          <button class="primary-btn hidden" id="nextBtn" type="button">下一题</button>
+        </div>
+      </section>
+
+      <section class="panel hidden" id="resultView">
+        <div class="result-hero">
+          <div class="score-ring" id="scoreRing"><span id="scoreNum"></span></div>
+          <div class="result-stats" id="resultStats"></div>
+        </div>
+        <div class="mistakes" id="mistakeList"></div>
+        <div class="result-actions">
+          <button class="primary-btn" id="retryBtn" type="button">再来一轮</button>
+          <button class="ghost-btn" id="settingsBtn" type="button">重新设置</button>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
