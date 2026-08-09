@@ -56,7 +56,9 @@
   function buildQuestions() {
     var total = count > 0 ? Math.min(count, schools.length) : schools.length;
     var strongPool = schools.filter(function (s) { return s.tier === 1 || s.tier === 2; });
-    var restPool = schools.filter(function (s) { return s.tier >= 3; });
+    var restPool = schools.filter(function (s) {
+      return s.tier === null || s.tier === undefined || s.tier >= 3;
+    });
     var strongCount = Math.round(total * 0.7);
     var restCount = total - strongCount;
 
@@ -84,6 +86,7 @@
       if (mode === "district") type = "district";
       else if (mode === "tier") type = "tier";
       else type = Math.random() < 0.5 ? "district" : "tier";
+      if (type === "tier" && !school.tier) type = "district";
 
       var options;
       var answer;
@@ -166,6 +169,7 @@
       else if (b !== btn) b.classList.add("dim");
     });
 
+    var tierLabel = q.school.tier ? ("第" + q.school.tier + "梯队") : "暂无梯队数据";
     var fb = $("feedbackBox");
     fb.classList.remove("hidden", "right", "wrong");
 
@@ -173,11 +177,11 @@
       correctCount += 1;
       btn.classList.add("correct");
       fb.classList.add("right");
-      fb.textContent = "回答正确 · " + q.school.name + "｜" + q.school.district + " · 第" + q.school.tier + "梯队";
+      fb.textContent = "回答正确 · " + q.school.name + "｜" + q.school.district + " · " + tierLabel;
     } else {
       btn.classList.add("wrong");
       fb.classList.add("wrong");
-      fb.textContent = "回答错误 · " + q.school.name + "｜" + q.school.district + " · 第" + q.school.tier + "梯队";
+      fb.textContent = "回答错误 · " + q.school.name + "｜" + q.school.district + " · " + tierLabel;
       mistakes.push({
         school: q.school,
         type: q.type,
@@ -231,7 +235,8 @@
         var item = el("div", "mistake-item");
         item.appendChild(el("div", "m-school", m.school.name));
         item.appendChild(el("div", null, "你选：" + m.answer));
-        item.appendChild(el("div", "m-correct", "正确：" + m.correct + " · " + m.school.district + " · 第" + m.school.tier + "梯队"));
+        var correctLabel = m.school.tier ? ("第" + m.school.tier + "梯队") : "暂无梯队数据";
+        item.appendChild(el("div", "m-correct", "正确：" + m.correct + " · " + m.school.district + " · " + correctLabel));
         list.appendChild(item);
       });
     }
