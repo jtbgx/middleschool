@@ -19,6 +19,11 @@
   var GEO_HEADS = ["湾", "河", "湖", "山", "江", "岛", "塘", "街道", "镇", "乡"];
   var SCHOOL_HEADS = ["中学", "学校", "实验", "初级", "第", "一中", "二中", "三中", "四中", "五中", "六中", "十中", "外国语", "教育集团"];
   var GENERIC_NAMES = ["中学", "学校", "实验中学", "实验学校", "实验外国语学校", "外国语学校", "第一中学", "第二中学", "第三中学", "第四中学", "第五中学", "教育集团", "一中实验"];
+  var GENERIC_RE = /^[一二三四五六七八九十百]+中$/;
+
+  function isGenericName(n) {
+    return GENERIC_NAMES.indexOf(n) > -1 || n.length <= 2 || GENERIC_RE.test(n);
+  }
 
   function sanitizeName(raw) {
     var s = String(raw || "").trim();
@@ -41,7 +46,7 @@
         var token = r + suf;
         if (s.indexOf(token) > -1) {
           var candidate = s.split(token).join("");
-          if (GENERIC_NAMES.indexOf(candidate) > -1) {
+          if (isGenericName(candidate)) {
             keepOriginal = true;
           } else {
             s = candidate;
@@ -55,7 +60,7 @@
       if (s.indexOf(word) !== 0) continue;
       var rest = s.slice(word.length);
       var geoHead = GEO_HEADS.some(function (g) { return rest.indexOf(g) === 0; });
-      if (!geoHead && rest && GENERIC_NAMES.indexOf(rest) === -1) {
+      if (!geoHead && rest && !isGenericName(rest)) {
         s = rest;
         break;
       }

@@ -56,6 +56,14 @@ GENERIC_BLACKLIST = {
 }
 
 
+def is_generic_name(s):
+    return (
+        s in GENERIC_BLACKLIST
+        or len(s) <= 2
+        or bool(re.match(r"^[一二三四五六七八九十百]+中$", s))
+    )
+
+
 def clean_name(raw):
     if not raw:
         return raw
@@ -74,14 +82,14 @@ def clean_name(raw):
             token = r + suf
             if token in s:
                 candidate = s.replace(token, "")
-                if candidate in GENERIC_BLACKLIST:
+                if is_generic_name(candidate):
                     return str(raw).strip()
                 s = candidate
     for r in CLEAN_REGIONS:
         if s.startswith(r):
             rest = s[len(r):]
             if not any(rest.startswith(g) for g in GEO_HEADS):
-                if rest and rest not in GENERIC_BLACKLIST:
+                if rest and not is_generic_name(rest):
                     s = rest
             break
     return s.strip() or str(raw).strip()
@@ -122,6 +130,8 @@ def variants(s):
         extra = []
         for v in list(out):
             v_plain = re.sub(r"[（(]初中部?[)）]", "", v)
+            v_plain = re.sub(r"[（(][^）)]*民转公[^）)]*[)）]", "", v_plain)
+            v_plain = re.sub(r"[（(]本部[)）]", "", v_plain)
             extra.append(v_plain)
             extra.append(v_plain.replace("第一初中", "一中"))
             extra.append(v_plain.replace("第二初中", "二中"))
