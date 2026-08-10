@@ -36,6 +36,55 @@ REGION_PREFIX = [
     "淳安县",
     "建德市",
 ]
+CLEAN_REGIONS = ["上城", "拱墅", "西湖", "滨江", "钱塘", "萧山", "余杭", "临平", "富阳", "临安", "桐庐", "淳安", "建德"]
+GEO_HEADS = ["湾", "河", "湖", "山", "江", "岛", "塘", "街道", "镇", "乡"]
+SCHOOL_HEADS = ["中学", "学校", "实验", "初级", "第", "一中", "二中", "三中", "四中", "五中", "六中", "十中", "外国语", "教育集团"]
+GENERIC_BLACKLIST = {
+    "中学",
+    "学校",
+    "实验中学",
+    "实验学校",
+    "实验外国语学校",
+    "外国语学校",
+    "第一中学",
+    "第二中学",
+    "第三中学",
+    "第四中学",
+    "第五中学",
+    "教育集团",
+    "一中实验",
+}
+
+
+def clean_name(raw):
+    if not raw:
+        return raw
+    s = str(raw).strip()
+    if s.startswith("杭州市"):
+        tail = s[len("杭州市"):]
+        if tail in GENERIC_BLACKLIST:
+            return str(raw).strip()
+        s = tail
+    elif s.startswith("杭州"):
+        tail = s[len("杭州"):]
+        if any(tail.startswith(r) for r in CLEAN_REGIONS):
+            s = tail
+    for r in CLEAN_REGIONS:
+        for suf in ("区", "县", "市"):
+            token = r + suf
+            if token in s:
+                candidate = s.replace(token, "")
+                if candidate in GENERIC_BLACKLIST:
+                    return str(raw).strip()
+                s = candidate
+    for r in CLEAN_REGIONS:
+        if s.startswith(r):
+            rest = s[len(r):]
+            if not any(rest.startswith(g) for g in GEO_HEADS):
+                if rest and rest not in GENERIC_BLACKLIST:
+                    s = rest
+            break
+    return s.strip() or str(raw).strip()
 
 
 def norm2(s):
@@ -416,6 +465,18 @@ print("一致性核对发现问题:", issues)
 
 for r in records:
     r.pop("source", None)
+    if not r.get("alias"):
+        r["alias"] = r["name"]
+    r["name"] = clean_name(r["name"])
+name_counts = Counter(r["name"] for r in records)
+for r in records:
+    if name_counts[r["name"]] > 1:
+        r["name"] = r["alias"]
+FULL_NAME_OVERRIDES = {"十三中教育集团": "十三中教育集团（总校）杭十三中"}
+for r in records:
+    if r["name"] in FULL_NAME_OVERRIDES:
+        r["name"] = FULL_NAME_OVERRIDES[r["name"]]
+print("清理后重名回退:", sum(1 for r in records if name_counts[r["name"]] > 1))
 records.sort(key=lambda x: (NINE_DISTRICTS.index(x["district"]), x["name"]))
 
 by_d = Counter(x["district"] for x in records)
@@ -441,7 +502,7 @@ out_xlsx = r"E:\ai\codex-project\shengxuechuzhong\杭州9区初中梯队总表_�
 wb2 = openpyxl.Workbook()
 ws2 = wb2.active
 ws2.title = "9区初中梯队总表"
-headers = ["序号", "所属区域", "梯队", "学校名称", "办学性质", "办学类型", "2026报考人数", "2026分配生名额", "备注"]
+headers = ["序号", "所属区域", "梯队", "学校名称", "表格原名", "办学性质", "办学类型", "2026报考人数", "2026分配生名额", "备注"]
 ws2.append(headers)
 for i, rec in enumerate(records, 1):
     tier_text = "T%d" % rec["tier"] if rec["tier"] else "暂无"
@@ -451,6 +512,7 @@ for i, rec in enumerate(records, 1):
             rec["district"],
             tier_text,
             rec["name"],
+            rec.get("alias", ""),
             rec["nature"],
             rec["type"],
             rec["cnt26"],
@@ -458,7 +520,7 @@ for i, rec in enumerate(records, 1):
             rec["note"],
         ]
     )
-widths = [6, 10, 8, 44, 16, 26, 12, 14, 46]
+widths = [6, 10, 8, 38, 38, 16, 26, 12, 14, 46]
 for idx, w in enumerate(widths, 1):
     ws2.column_dimensions[openpyxl.utils.get_column_letter(idx)].width = w
 ws_pending = wb2.create_sheet("民间榜对照")

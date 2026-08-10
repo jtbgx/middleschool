@@ -18,32 +18,61 @@
   var REGION_WORDS = ["上城", "拱墅", "西湖", "滨江", "钱塘", "萧山", "余杭", "临平", "富阳", "临安", "桐庐", "淳安", "建德"];
   var GEO_HEADS = ["湾", "河", "湖", "山", "江", "岛", "塘", "街道", "镇", "乡"];
   var SCHOOL_HEADS = ["中学", "学校", "实验", "初级", "第", "一中", "二中", "三中", "四中", "五中", "六中", "十中", "外国语", "教育集团"];
+  var GENERIC_NAMES = ["中学", "学校", "实验中学", "实验学校", "实验外国语学校", "外国语学校", "第一中学", "第二中学", "第三中学", "第四中学", "第五中学", "教育集团", "一中实验"];
 
   function sanitizeName(raw) {
     var s = String(raw || "").trim();
     if (!s) return s;
-    s = s.replace(/^杭州市?/, "");
+    if (s.indexOf("杭州市") === 0) {
+      var tailCity = s.slice(3);
+      if (GENERIC_NAMES.indexOf(tailCity) > -1) {
+        return String(raw || "").trim();
+      }
+      s = tailCity;
+    } else if (s.indexOf("杭州") === 0) {
+      var tail = s.slice(2);
+      if (REGION_WORDS.some(function (r) { return tail.indexOf(r) === 0; })) {
+        s = tail;
+      }
+    }
+    var keepOriginal = false;
     REGION_WORDS.forEach(function (r) {
-      s = s.split(r + "区").join("");
-      s = s.split(r + "县").join("");
-      s = s.split(r + "市").join("");
-      s = s.split(r + "校区").join("校区");
-      SCHOOL_HEADS.forEach(function (w) {
-        s = s.split(r + w).join(w);
+      ["区", "县", "市"].forEach(function (suf) {
+        var token = r + suf;
+        if (s.indexOf(token) > -1) {
+          var candidate = s.split(token).join("");
+          if (GENERIC_NAMES.indexOf(candidate) > -1) {
+            keepOriginal = true;
+          } else {
+            s = candidate;
+          }
+        }
       });
     });
+    if (keepOriginal) return String(raw || "").trim();
     for (var i = 0; i < REGION_WORDS.length; i++) {
       var word = REGION_WORDS[i];
       if (s.indexOf(word) !== 0) continue;
       var rest = s.slice(word.length);
       var geoHead = GEO_HEADS.some(function (g) { return rest.indexOf(g) === 0; });
-      if (!geoHead) {
+      if (!geoHead && rest && GENERIC_NAMES.indexOf(rest) === -1) {
         s = rest;
         break;
       }
     }
     s = s.replace(/^[\s\u3000]+|[\s\u3000]+$/g, "");
     return s || String(raw || "").trim();
+  }
+
+  var displayCounts = {};
+  schools.forEach(function (s) {
+    var d = sanitizeName(s.name);
+    displayCounts[d] = (displayCounts[d] || 0) + 1;
+  });
+
+  function displayName(school) {
+    var d = sanitizeName(school.name);
+    return displayCounts[d] > 1 ? (school.name || d) : d;
   }
 
   var mode = "mix";
@@ -165,7 +194,7 @@
     var box = $("questionBox");
     box.textContent = "";
     box.appendChild(el("div", "q-type", q.type === "district" ? "地区题" : "梯队题"));
-    box.appendChild(el("h2", "q-school", sanitizeName(q.school.name)));
+    box.appendChild(el("h2", "q-school", displayName(q.school)));
 
     var note = [];
     if (q.school.nature) note.push(q.school.nature);
