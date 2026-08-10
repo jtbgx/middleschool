@@ -410,19 +410,9 @@ window.HZ_SCHOOLS = [
   "note": ""
  },
  {
-  "district": "上城区",
-  "name": "采荷濮家",
-  "tier": 1,
-  "nature": "公办",
-  "type": "",
-  "cnt26": "",
-  "quota26": "",
-  "note": "采荷教育集团"
- },
- {
   "district": "拱墅区",
   "name": "上海世外附属学校",
-  "tier": 1,
+  "tier": 3,
   "nature": "民办",
   "type": "",
   "cnt26": "",
@@ -631,7 +621,7 @@ window.HZ_SCHOOLS = [
  },
  {
   "district": "拱墅区",
-  "tier": 1,
+  "tier": 3,
   "name": "杭州市文澜实验学校",
   "nature": "公办",
   "type": "九年一贯制",
@@ -1282,7 +1272,7 @@ window.HZ_SCHOOLS = [
  {
   "district": "滨江区",
   "name": "杭州二中滨江校区初中部",
-  "tier": 1,
+  "tier": 2,
   "nature": "公办",
   "type": "",
   "cnt26": "",
@@ -1492,7 +1482,7 @@ window.HZ_SCHOOLS = [
  {
   "district": "钱塘区",
   "name": "临江一中",
-  "tier": 1,
+  "tier": 4,
   "nature": "公办",
   "type": "",
   "cnt26": "",
@@ -1502,7 +1492,7 @@ window.HZ_SCHOOLS = [
  {
   "district": "钱塘区",
   "name": "养正中学",
-  "tier": 1,
+  "tier": 3,
   "nature": "民办",
   "type": "",
   "cnt26": "",
@@ -1512,7 +1502,7 @@ window.HZ_SCHOOLS = [
  {
   "district": "钱塘区",
   "name": "文海实验学校",
-  "tier": 1,
+  "tier": 3,
   "nature": "公办",
   "type": "",
   "cnt26": "",
@@ -1712,7 +1702,7 @@ window.HZ_SCHOOLS = [
  {
   "district": "钱塘区",
   "name": "钱塘外国语学校",
-  "tier": 1,
+  "tier": 3,
   "nature": "民办",
   "type": "",
   "cnt26": "",
@@ -1722,7 +1712,7 @@ window.HZ_SCHOOLS = [
  {
   "district": "萧山区",
   "name": "临浦镇中",
-  "tier": 1,
+  "tier": 4,
   "nature": "公办",
   "type": "",
   "cnt26": "",
@@ -1732,7 +1722,7 @@ window.HZ_SCHOOLS = [
  {
   "district": "萧山区",
   "name": "党湾初中",
-  "tier": 1,
+  "tier": 4,
   "nature": "公办",
   "type": "",
   "cnt26": "",
@@ -1762,7 +1752,7 @@ window.HZ_SCHOOLS = [
  {
   "district": "萧山区",
   "name": "瓜沥一中",
-  "tier": 1,
+  "tier": 4,
   "nature": "公办",
   "type": "",
   "cnt26": "",
@@ -1772,7 +1762,7 @@ window.HZ_SCHOOLS = [
  {
   "district": "萧山区",
   "name": "益农初中",
-  "tier": 1,
+  "tier": 4,
   "nature": "公办",
   "type": "",
   "cnt26": "",
@@ -1801,7 +1791,7 @@ window.HZ_SCHOOLS = [
  },
  {
   "district": "萧山区",
-  "tier": 1,
+  "tier": 4,
   "name": "萧山区义桥实验学校",
   "nature": "公办",
   "type": "九年一贯制",
@@ -1821,7 +1811,7 @@ window.HZ_SCHOOLS = [
  },
  {
   "district": "萧山区",
-  "tier": 1,
+  "tier": 3,
   "name": "萧山区北干初级中学",
   "nature": "公办",
   "type": "独立初中",
@@ -1831,7 +1821,7 @@ window.HZ_SCHOOLS = [
  },
  {
   "district": "萧山区",
-  "tier": 1,
+  "tier": 3,
   "name": "萧山区回澜初级中学",
   "nature": "公办",
   "type": "独立初中",
@@ -2041,7 +2031,7 @@ window.HZ_SCHOOLS = [
  },
  {
   "district": "萧山区",
-  "tier": 1,
+  "tier": 4,
   "name": "萧山区金山初级中学",
   "nature": "公办",
   "type": "独立初中",
@@ -2071,7 +2061,7 @@ window.HZ_SCHOOLS = [
  },
  {
   "district": "萧山区",
-  "tier": 1,
+  "tier": 4,
   "name": "萧山区高桥初级中学",
   "nature": "公办",
   "type": "独立初中",
@@ -2092,7 +2082,7 @@ window.HZ_SCHOOLS = [
  {
   "district": "萧山区",
   "name": "萧山实验中学",
-  "tier": 1,
+  "tier": 3,
   "nature": "民办",
   "type": "",
   "cnt26": "",
@@ -2102,7 +2092,7 @@ window.HZ_SCHOOLS = [
  {
   "district": "萧山区",
   "name": "金帆学校",
-  "tier": 1,
+  "tier": 2,
   "nature": "民办",
   "type": "",
   "cnt26": "",
@@ -2112,7 +2102,7 @@ window.HZ_SCHOOLS = [
  {
   "district": "余杭区",
   "name": "余杭一中实验",
-  "tier": 1,
+  "tier": 3,
   "nature": "公办",
   "type": "",
   "cnt26": "",
@@ -2132,7 +2122,7 @@ window.HZ_SCHOOLS = [
  {
   "district": "余杭区",
   "name": "未来科技城海创园",
-  "tier": 1,
+  "tier": 3,
   "nature": "公办",
   "type": "",
   "cnt26": "",
@@ -2452,7 +2442,7 @@ window.HZ_SCHOOLS = [
  {
   "district": "余杭区",
   "name": "杭州师范大学附属未来科技城学校",
-  "tier": 1,
+  "tier": 2,
   "nature": "公办",
   "type": "",
   "cnt26": "",
@@ -2522,7 +2512,7 @@ window.HZ_SCHOOLS = [
  {
   "district": "余杭区",
   "name": "橄榄树学校",
-  "tier": 1,
+  "tier": 3,
   "nature": "民办",
   "type": "",
   "cnt26": "",
@@ -2532,7 +2522,7 @@ window.HZ_SCHOOLS = [
  {
   "district": "余杭区",
   "name": "瓶窑一中",
-  "tier": 1,
+  "tier": 4,
   "nature": "公办",
   "type": "",
   "cnt26": "",
@@ -2542,7 +2532,7 @@ window.HZ_SCHOOLS = [
  {
   "district": "余杭区",
   "name": "良渚一中",
-  "tier": 1,
+  "tier": 4,
   "nature": "公办",
   "type": "",
   "cnt26": "",
@@ -2552,7 +2542,7 @@ window.HZ_SCHOOLS = [
  {
   "district": "临平区",
   "name": "临平一中",
-  "tier": 1,
+  "tier": 3,
   "nature": "公办",
   "type": "",
   "cnt26": "",
@@ -2562,7 +2552,7 @@ window.HZ_SCHOOLS = [
  {
   "district": "临平区",
   "name": "临平三中",
-  "tier": 1,
+  "tier": 3,
   "nature": "公办",
   "type": "",
   "cnt26": "",
@@ -2572,7 +2562,7 @@ window.HZ_SCHOOLS = [
  {
   "district": "临平区",
   "name": "临平五中",
-  "tier": 1,
+  "tier": 4,
   "nature": "公办",
   "type": "",
   "cnt26": "",
@@ -2582,7 +2572,7 @@ window.HZ_SCHOOLS = [
  {
   "district": "临平区",
   "name": "塘栖二中",
-  "tier": 1,
+  "tier": 4,
   "nature": "公办",
   "type": "",
   "cnt26": "",
@@ -2812,7 +2802,7 @@ window.HZ_SCHOOLS = [
  {
   "district": "临平区",
   "name": "杭高临平学校",
-  "tier": 1,
+  "tier": 3,
   "nature": "公办",
   "type": "",
   "cnt26": "",
@@ -2822,7 +2812,7 @@ window.HZ_SCHOOLS = [
  {
   "district": "富阳区",
   "name": "场口中学",
-  "tier": 1,
+  "tier": 4,
   "nature": "公办",
   "type": "",
   "cnt26": "",
@@ -2832,7 +2822,7 @@ window.HZ_SCHOOLS = [
  {
   "district": "富阳区",
   "name": "富春三中",
-  "tier": 1,
+  "tier": 4,
   "nature": "公办",
   "type": "",
   "cnt26": "",
@@ -2921,7 +2911,7 @@ window.HZ_SCHOOLS = [
  },
  {
   "district": "富阳区",
-  "tier": 1,
+  "tier": 4,
   "name": "杭州市富阳区东洲中学",
   "nature": "公办",
   "type": "独立初中",
@@ -2951,7 +2941,7 @@ window.HZ_SCHOOLS = [
  },
  {
   "district": "富阳区",
-  "tier": 1,
+  "tier": 3,
   "name": "杭州市富阳区富春中学",
   "nature": "公办",
   "type": "独立初中",
@@ -2981,7 +2971,7 @@ window.HZ_SCHOOLS = [
  },
  {
   "district": "富阳区",
-  "tier": 1,
+  "tier": 4,
   "name": "杭州市富阳区新登镇中学",
   "nature": "公办",
   "type": "独立初中",
@@ -3061,7 +3051,7 @@ window.HZ_SCHOOLS = [
  },
  {
   "district": "富阳区",
-  "tier": 1,
+  "tier": 4,
   "name": "杭州市富阳区郁达夫中学",
   "nature": "公办",
   "type": "独立初中",
@@ -3091,7 +3081,7 @@ window.HZ_SCHOOLS = [
  },
  {
   "district": "富阳区",
-  "tier": 1,
+  "tier": 2,
   "name": "杭州银湖实验中学",
   "nature": "民办",
   "type": "独立初中",

@@ -214,7 +214,7 @@ for r in ws.iter_rows(min_col=1, max_col=10, values_only=True):
     if district not in NINE_DISTRICTS:
         continue
     try:
-        rate = float(r[4])
+        rate = float(r[5]) / 100.0
     except (TypeError, ValueError):
         rate = None
     tier = None
@@ -303,6 +303,12 @@ apply_source(sheet11_rows)
 apply_source(sheet125_rows)
 
 records = list(records_by_key.values())
+SKIP_NAMES = {"采荷濮家"}
+total_before = len(records)
+records = [r for r in records if r["name"] not in SKIP_NAMES]
+removed = total_before - len(records)
+if removed:
+    print("已移除重复校区条目:", removed)
 records.sort(key=lambda x: (NINE_DISTRICTS.index(x["district"]), x["name"]))
 
 by_d = Counter(x["district"] for x in records)
