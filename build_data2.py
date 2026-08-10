@@ -46,7 +46,6 @@ def norm2(s):
     for p in REGION_PREFIX:
         if s.startswith(p):
             s = s[len(p):]
-    s = re.sub(r"[（(][^）)]*[)）]", "", s)
     s = s.replace("初级中学", "初中")
     return s
 
@@ -55,11 +54,34 @@ def variants(s):
     base = norm2(s)
     out = {base}
     if base:
-        out.add(base.replace("实验学校", "学校"))
-        out.add(base.replace("中学教育集团", "中学"))
-        out.add(base.replace("附属学校", "学校"))
-        out.add(base.replace("初级中学", "初中"))
-        out.add(base.replace("中学", "初中"))
+        for a, b in (
+            ("实验学校", "学校"),
+            ("中学教育集团", "中学"),
+            ("附属学校", "学校"),
+            ("初级中学", "初中"),
+            ("第一中学", "一中"),
+            ("第二中学", "二中"),
+            ("第三中学", "三中"),
+            ("第四中学", "四中"),
+            ("第五中学", "五中"),
+            ("第六中学", "六中"),
+            ("第十中学", "十中"),
+            ("学校", "中学"),
+            ("中学", "初中"),
+        ):
+            out.add(base.replace(a, b))
+        extra = []
+        for v in list(out):
+            v_plain = re.sub(r"[（(]初中部?[)）]", "", v)
+            extra.append(v_plain)
+            extra.append(v_plain.replace("第一初中", "一中"))
+            extra.append(v_plain.replace("第二初中", "二中"))
+            extra.append(v_plain.replace("第三初中", "三中"))
+            extra.append(v_plain.replace("第四初中", "四中"))
+            extra.append(v_plain.replace("第五初中", "五中"))
+            extra.append(v_plain.replace("镇中", "镇初中"))
+            extra.append(v_plain.replace("镇", ""))
+        out.update(extra)
     return out
 
 
@@ -69,12 +91,13 @@ def sim_match(n1, n2):
     if n1 == n2:
         return True
     v1, v2 = variants(n1), variants(n2)
-    if v1 & v2:
-        return True
-    if len(n1) >= 4 and n1 in n2:
-        return True
-    if len(n2) >= 4 and n2 in n1:
-        return True
+    for a in v1:
+        for b in v2:
+            if a == b:
+                return True
+            if len(a) >= 4 and len(b) >= 4:
+                if (a in b or b in a) and not (b.startswith(a) or a.startswith(b)):
+                    return True
     return False
 
 
@@ -94,7 +117,11 @@ def is_school_name(name):
     return any(w in name for w in ("中学", "学校", "教育集团"))
 
 
-path = [p for p in glob.glob(r"E:\ai\codex-project\shengxuechuzhong\*.xlsx") if "分配生" in p][0]
+path = [
+    p
+    for p in glob.glob(r"E:\ai\codex-project\shengxuechuzhong\*.xlsx")
+    if "分配生" in p and not p.split("\\")[-1].startswith("~$")
+][0]
 wb = openpyxl.load_workbook(path, data_only=True, read_only=True)
 
 # ---- 256 所名单骨架 ----
@@ -115,6 +142,7 @@ for r in ws.iter_rows(min_col=1, max_col=6, values_only=True):
             "nature": str(r[3]).strip() if r[3] else "",
             "type": str(r[4]).strip() if r[4] else "",
             "note": str(r[5]).strip() if r[5] else "",
+            "source": "base",
         }
     )
 
@@ -146,6 +174,7 @@ for r in ws.iter_rows(min_col=1, max_col=11, values_only=True):
             "cnt26": str(r[6]).strip() if r[6] is not None else "",
             "quota26": str(r[7]).strip() if r[7] is not None else "",
             "note": str(r[10]).strip() if len(r) > 10 and r[10] else "",
+            "source": "sheet2",
         }
     )
 
@@ -177,6 +206,7 @@ for r in ws.iter_rows(min_col=1, max_col=10, max_row=80, values_only=True):
             "cnt26": str(r[8]).strip() if len(r) > 8 and r[8] is not None else "",
             "quota26": str(r[9]).strip() if len(r) > 9 and r[9] is not None else "",
             "note": str(r[7]).strip() if len(r) > 7 and r[7] else "",
+            "source": "sheet4",
         }
     )
 
@@ -200,6 +230,7 @@ for r in ws.iter_rows(min_col=1, max_col=6, max_row=27, values_only=True):
             "cnt26": "",
             "quota26": "",
             "note": str(r[5]).strip() if len(r) > 5 and r[5] else "",
+            "source": "sheet11",
         }
     )
 
@@ -237,6 +268,7 @@ for r in ws.iter_rows(min_col=1, max_col=10, values_only=True):
             "cnt26": "",
             "quota26": "",
             "note": str(r[9]).strip() if len(r) > 9 and r[9] else "",
+            "source": "sheet125",
         }
     )
 
@@ -269,7 +301,10 @@ def add(rec):
     records_by_key[k] = dict(rec)
 
 
-def apply_source(rows):
+pending125 = []
+
+
+def apply_source(rows, allow_add=True):
     for item in rows:
         fk = find_key(list(records_by_key.items()), item["district"], item["name"])
         if fk:
@@ -279,8 +314,10 @@ def apply_source(rows):
             for f in ("nature", "type", "cnt26", "quota26", "note"):
                 if not target[f] and item[f]:
                     target[f] = item[f]
-        else:
+        elif allow_add:
             add(item)
+        else:
+            pending125.append(item)
 
 
 for b in base_rows:
@@ -300,15 +337,85 @@ for b in base_rows:
 apply_source(sheet2_rows)
 apply_source(sheet4_rows)
 apply_source(sheet11_rows)
-apply_source(sheet125_rows)
+apply_source(sheet125_rows, allow_add=False)
 
 records = list(records_by_key.values())
-SKIP_NAMES = {"采荷濮家"}
+for r in records:
+    r.setdefault("alias", "")
+SKIP_NAMES = {"采荷濮家", "启正中学"}
+MANUAL_MAP = {
+    "保俶塔申花实验": ("西湖区", "保俶塔申花实验", ""),
+    "绿城育华亲亲": ("余杭区", "绿城育华亲亲", ""),
+    "育海外国语": ("余杭区", "育海外国语", ""),
+    "信达外国语": ("临平区", "信达外国语", ""),
+    "英特外国语": ("余杭区", "英特外国语", ""),
+    "银湖实验": ("富阳区", "银湖实验中学", "永兴分校"),
+    "育才大城北": ("拱墅区", "育才大城北", ""),
+    "十三中教育集团": ("西湖区", "十三中", ""),
+    "钱江新城实验": ("上城区", "钱江新城实验", ""),
+    "清河实验": ("上城区", "清河实验", ""),
+    "翠苑中学": ("西湖区", "翠苑中学（翠苑校区、文华校区）", ""),
+    "瓜沥一中": ("萧山区", "瓜沥镇第一", ""),
+    "义桥实验": ("萧山区", "义桥实验", ""),
+}
 total_before = len(records)
 records = [r for r in records if r["name"] not in SKIP_NAMES]
 removed = total_before - len(records)
 if removed:
     print("已移除重复校区条目:", removed)
+
+print("=== 民间榜整合 ===")
+merged_info = []
+for item in pending125:
+    if item["name"] in SKIP_NAMES:
+        continue
+    target = None
+    if item["name"] in MANUAL_MAP:
+        m = MANUAL_MAP[item["name"]]
+        for rec in records:
+            if rec["district"] == m[0] and m[1] in rec["name"] and (not m[2] or m[2] not in rec["name"]):
+                target = rec
+                break
+    if target:
+        target["alias"] = target["name"]
+        target["name"] = item["name"]
+        if target["tier"] is None and item["tier"] is not None:
+            target["tier"] = item["tier"]
+        print("  合并:", item["district"], item["name"], "->", target["alias"], "梯队", target["tier"])
+        merged_info.append((item, target["alias"]))
+    else:
+        records.append(
+            {
+                "district": item["district"],
+                "tier": item["tier"],
+                "name": item["name"],
+                "nature": item.get("nature", ""),
+                "type": item.get("type", ""),
+                "cnt26": "",
+                "quota26": "",
+                "note": item.get("note", ""),
+                "alias": "",
+            }
+        )
+        print("  新增:", item["district"], item["name"], "梯队", item["tier"])
+        merged_info.append((item, ""))
+
+print("=== 源表梯队一致性核对 ===")
+issues = 0
+for item in sheet2_rows + sheet4_rows:
+    fk = find_key(list(records_by_key.items()), item["district"], item["name"])
+    if fk:
+        rec = records_by_key[fk]
+        if rec["tier"] != item["tier"]:
+            issues += 1
+            print("  不一致:", item["district"], item["name"], "源表", item["tier"], "-> data", rec["tier"])
+    else:
+        issues += 1
+        print("  未找到:", item["district"], item["name"])
+print("一致性核对发现问题:", issues)
+
+for r in records:
+    r.pop("source", None)
 records.sort(key=lambda x: (NINE_DISTRICTS.index(x["district"]), x["name"]))
 
 by_d = Counter(x["district"] for x in records)
@@ -354,6 +461,13 @@ for i, rec in enumerate(records, 1):
 widths = [6, 10, 8, 44, 16, 26, 12, 14, 46]
 for idx, w in enumerate(widths, 1):
     ws2.column_dimensions[openpyxl.utils.get_column_letter(idx)].width = w
+ws_pending = wb2.create_sheet("民间榜对照")
+ws_pending.append(["民间说法", "所属区域", "对应正式学校", "梯队", "备注"])
+for item, full in merged_info:
+    tier_txt = "T%d" % item["tier"] if item["tier"] else "暂无"
+    ws_pending.append([item["name"], item["district"], full or "新增", tier_txt, item.get("note", "")])
+for idx, w in enumerate([16, 10, 38, 10, 46], 1):
+    ws_pending.column_dimensions[openpyxl.utils.get_column_letter(idx)].width = w
 wb2.save(out_xlsx)
 print("written:", out_xlsx)
 wb.close()

@@ -1,13 +1,25 @@
 window.HZ_SCHOOLS = [
  {
   "district": "上城区",
+  "tier": 3,
+  "name": "建兰中学转公部",
+  "nature": "公办",
+  "type": "",
+  "cnt26": "",
+  "quota26": "",
+  "note": "建兰转公部分",
+  "alias": ""
+ },
+ {
+  "district": "上城区",
   "tier": 4,
   "name": "杭州八一学校",
   "nature": "公办",
   "type": "九年一贯制",
   "cnt26": "160",
   "quota26": "",
-  "note": ""
+  "note": "",
+  "alias": ""
  },
  {
   "district": "上城区",
@@ -17,7 +29,8 @@ window.HZ_SCHOOLS = [
   "type": "十二年一贯制",
   "cnt26": "150",
   "quota26": "",
-  "note": ""
+  "note": "",
+  "alias": ""
  },
  {
   "district": "上城区",
@@ -27,7 +40,8 @@ window.HZ_SCHOOLS = [
   "type": "九年一贯制",
   "cnt26": "360",
   "quota26": "",
-  "note": "含浜河、闸弄口两个校区"
+  "note": "含浜河、闸弄口两个校区",
+  "alias": ""
  },
  {
   "district": "上城区",
@@ -37,7 +51,8 @@ window.HZ_SCHOOLS = [
   "type": "十二年一贯制",
   "cnt26": "144",
   "quota26": "",
-  "note": ""
+  "note": "",
+  "alias": ""
  },
  {
   "district": "上城区",
@@ -47,7 +62,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "270",
   "quota26": "",
-  "note": ""
+  "note": "",
+  "alias": ""
  },
  {
   "district": "上城区",
@@ -57,7 +73,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "495",
   "quota26": "130",
-  "note": "丁桥板块"
+  "note": "丁桥板块",
+  "alias": ""
  },
  {
   "district": "上城区",
@@ -67,7 +84,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "540",
   "quota26": "71",
-  "note": ""
+  "note": "",
+  "alias": ""
  },
  {
   "district": "上城区",
@@ -77,7 +95,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "450",
   "quota26": "",
-  "note": ""
+  "note": "",
+  "alias": ""
  },
  {
   "district": "上城区",
@@ -87,7 +106,8 @@ window.HZ_SCHOOLS = [
   "type": "九年一贯制",
   "cnt26": "270",
   "quota26": "",
-  "note": ""
+  "note": "",
+  "alias": ""
  },
  {
   "district": "上城区",
@@ -97,7 +117,8 @@ window.HZ_SCHOOLS = [
   "type": "九年一贯制",
   "cnt26": "315",
   "quota26": "",
-  "note": ""
+  "note": "",
+  "alias": ""
  },
  {
   "district": "上城区",
@@ -107,7 +128,8 @@ window.HZ_SCHOOLS = [
   "type": "九年一贯制",
   "cnt26": "240",
   "quota26": "",
-  "note": ""
+  "note": "",
+  "alias": ""
  },
  {
   "district": "上城区",
@@ -117,7 +139,8 @@ window.HZ_SCHOOLS = [
   "type": "九年一贯制",
   "cnt26": "400",
   "quota26": "",
-  "note": ""
+  "note": "",
+  "alias": ""
  },
  {
   "district": "上城区",
@@ -127,7 +150,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "450",
   "quota26": "53",
-  "note": ""
+  "note": "",
+  "alias": ""
  },
  {
   "district": "上城区",
@@ -137,7 +161,8 @@ window.HZ_SCHOOLS = [
   "type": "九年一贯制",
   "cnt26": "405",
   "quota26": "65",
-  "note": "上城区公办，最高分636"
+  "note": "上城区公办，最高分636",
+  "alias": ""
  },
  {
   "district": "上城区",
@@ -147,7 +172,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "540",
   "quota26": "99",
-  "note": "2026年正常招生，需摇号"
+  "note": "2026年正常招生，需摇号",
+  "alias": ""
  },
  {
   "district": "上城区",
@@ -157,7 +183,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "450",
   "quota26": "",
-  "note": "上城区公办"
+  "note": "上城区公办",
+  "alias": ""
  },
  {
   "district": "上城区",
@@ -167,7 +194,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "194",
   "quota26": "71",
-  "note": "上城区公办老牌"
+  "note": "上城区公办老牌",
+  "alias": ""
  },
  {
   "district": "上城区",
@@ -177,7 +205,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "405",
   "quota26": "",
-  "note": ""
+  "note": "",
+  "alias": ""
  },
  {
   "district": "上城区",
@@ -187,7 +216,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "360",
   "quota26": "54",
-  "note": ""
+  "note": "",
+  "alias": ""
  },
  {
   "district": "上城区",
@@ -197,7 +227,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "600",
   "quota26": "160",
-  "note": "上城区公办强校"
+  "note": "上城区公办强校",
+  "alias": ""
  },
  {
   "district": "上城区",
@@ -207,17 +238,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "360",
   "quota26": "",
-  "note": "上城区普通公办"
- },
- {
-  "district": "上城区",
-  "tier": 3,
-  "name": "杭州市清河实验学校",
-  "nature": "公办",
-  "type": "九年一贯制",
-  "cnt26": "360",
-  "quota26": "",
-  "note": "上城区普通公办"
+  "note": "上城区普通公办",
+  "alias": ""
  },
  {
   "district": "上城区",
@@ -227,7 +249,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "270",
   "quota26": "39",
-  "note": ""
+  "note": "",
+  "alias": ""
  },
  {
   "district": "上城区",
@@ -237,7 +260,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "405",
   "quota26": "",
-  "note": ""
+  "note": "",
+  "alias": ""
  },
  {
   "district": "上城区",
@@ -247,7 +271,8 @@ window.HZ_SCHOOLS = [
   "type": "九年一贯制",
   "cnt26": "315",
   "quota26": "",
-  "note": ""
+  "note": "",
+  "alias": ""
  },
  {
   "district": "上城区",
@@ -257,7 +282,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "360",
   "quota26": "68",
-  "note": ""
+  "note": "",
+  "alias": ""
  },
  {
   "district": "上城区",
@@ -267,7 +293,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "450",
   "quota26": "",
-  "note": ""
+  "note": "",
+  "alias": ""
  },
  {
   "district": "上城区",
@@ -277,7 +304,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "630",
   "quota26": "138（采荷）",
-  "note": "含采荷、濮家两个校区"
+  "note": "含采荷、濮家两个校区",
+  "alias": ""
  },
  {
   "district": "上城区",
@@ -287,7 +315,8 @@ window.HZ_SCHOOLS = [
   "type": "九年一贯制",
   "cnt26": "320",
   "quota26": "68",
-  "note": "2026年正常招生，需摇号"
+  "note": "2026年正常招生，需摇号",
+  "alias": ""
  },
  {
   "district": "上城区",
@@ -297,7 +326,8 @@ window.HZ_SCHOOLS = [
   "type": "九年一贯制",
   "cnt26": "405",
   "quota26": "50",
-  "note": "上城区公办新贵"
+  "note": "上城区公办新贵",
+  "alias": ""
  },
  {
   "district": "上城区",
@@ -307,17 +337,8 @@ window.HZ_SCHOOLS = [
   "type": "九年一贯制",
   "cnt26": "188",
   "quota26": "39",
-  "note": "含若水、潮涌、江河汇三个校区"
- },
- {
-  "district": "上城区",
-  "tier": 2,
-  "name": "杭州市钱江新城实验学校",
-  "nature": "公办",
-  "type": "独立初中",
-  "cnt26": "405",
-  "quota26": "86",
-  "note": "钱江新城板块"
+  "note": "含若水、潮涌、江河汇三个校区",
+  "alias": ""
  },
  {
   "district": "上城区",
@@ -327,7 +348,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "315",
   "quota26": "",
-  "note": ""
+  "note": "",
+  "alias": ""
  },
  {
   "district": "上城区",
@@ -337,7 +359,8 @@ window.HZ_SCHOOLS = [
   "type": "九年一贯制",
   "cnt26": "450",
   "quota26": "88",
-  "note": "含东昌、东盛两个校区"
+  "note": "含东昌、东盛两个校区",
+  "alias": ""
  },
  {
   "district": "上城区",
@@ -347,7 +370,8 @@ window.HZ_SCHOOLS = [
   "type": "九年一贯制",
   "cnt26": "270",
   "quota26": "",
-  "note": ""
+  "note": "",
+  "alias": ""
  },
  {
   "district": "上城区",
@@ -357,7 +381,8 @@ window.HZ_SCHOOLS = [
   "type": "九年一贯制",
   "cnt26": "360",
   "quota26": "",
-  "note": ""
+  "note": "",
+  "alias": ""
  },
  {
   "district": "上城区",
@@ -367,7 +392,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "360",
   "quota26": "71",
-  "note": ""
+  "note": "",
+  "alias": ""
  },
  {
   "district": "上城区",
@@ -377,7 +403,8 @@ window.HZ_SCHOOLS = [
   "type": "九年一贯制",
   "cnt26": "315",
   "quota26": "",
-  "note": ""
+  "note": "",
+  "alias": ""
  },
  {
   "district": "上城区",
@@ -387,7 +414,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "360",
   "quota26": "61",
-  "note": ""
+  "note": "",
+  "alias": ""
  },
  {
   "district": "上城区",
@@ -397,7 +425,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "320",
   "quota26": "",
-  "note": ""
+  "note": "",
+  "alias": ""
  },
  {
   "district": "上城区",
@@ -407,17 +436,41 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "360",
   "quota26": "52",
-  "note": ""
+  "note": "",
+  "alias": ""
+ },
+ {
+  "district": "上城区",
+  "tier": 3,
+  "name": "清河实验",
+  "nature": "公办",
+  "type": "九年一贯制",
+  "cnt26": "360",
+  "quota26": "",
+  "note": "",
+  "alias": "杭州市清河实验学校"
+ },
+ {
+  "district": "上城区",
+  "tier": 2,
+  "name": "钱江新城实验",
+  "nature": "公办",
+  "type": "独立初中",
+  "cnt26": "405",
+  "quota26": "86",
+  "note": "",
+  "alias": "杭州市钱江新城实验学校"
  },
  {
   "district": "拱墅区",
-  "name": "上海世外附属学校",
   "tier": 3,
+  "name": "上海世外附属学校",
   "nature": "民办",
   "type": "",
   "cnt26": "",
   "quota26": "",
-  "note": "拱墅区国际化民办"
+  "note": "拱墅区国际化民办",
+  "alias": ""
  },
  {
   "district": "拱墅区",
@@ -427,7 +480,8 @@ window.HZ_SCHOOLS = [
   "type": "公办九年一贯制（内设初中部）",
   "cnt26": "390",
   "quota26": "80",
-  "note": "华师大合作办学，拱墅区热门公办一梯队"
+  "note": "华师大合作办学，拱墅区热门公办一梯队",
+  "alias": ""
  },
  {
   "district": "拱墅区",
@@ -437,7 +491,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "无数据",
   "quota26": "0",
-  "note": "双语国际化特色，以国际路线为主"
+  "note": "双语国际化特色，以国际路线为主",
+  "alias": ""
  },
  {
   "district": "拱墅区",
@@ -447,7 +502,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "244",
   "quota26": "48",
-  "note": "拱墅区老牌优质民办初中，一梯队民办"
+  "note": "拱墅区老牌优质民办初中，一梯队民办",
+  "alias": ""
  },
  {
   "district": "拱墅区",
@@ -457,7 +513,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "337",
   "quota26": "69",
-  "note": "拱墅北部公办初中，三梯队公办"
+  "note": "拱墅北部公办初中，三梯队公办",
+  "alias": ""
  },
  {
   "district": "拱墅区",
@@ -467,7 +524,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "无数据",
   "quota26": "0",
-  "note": "北部板块公办"
+  "note": "北部板块公办",
+  "alias": ""
  },
  {
   "district": "拱墅区",
@@ -477,7 +535,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "",
   "quota26": "",
-  "note": ""
+  "note": "",
+  "alias": ""
  },
  {
   "district": "拱墅区",
@@ -487,7 +546,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "无数据",
   "quota26": "0",
-  "note": "大关中学教育集团总校，拱墅区老牌公办"
+  "note": "大关中学教育集团总校，拱墅区老牌公办",
+  "alias": ""
  },
  {
   "district": "拱墅区",
@@ -497,7 +557,8 @@ window.HZ_SCHOOLS = [
   "type": "公办独立初中",
   "cnt26": "390",
   "quota26": "80",
-  "note": "大关中学教育集团实验校区，二梯队公办，2026年分配生76人"
+  "note": "大关中学教育集团实验校区，二梯队公办，2026年分配生76人",
+  "alias": ""
  },
  {
   "district": "拱墅区",
@@ -507,7 +568,8 @@ window.HZ_SCHOOLS = [
   "type": "九年一贯制",
   "cnt26": "",
   "quota26": "",
-  "note": ""
+  "note": "",
+  "alias": ""
  },
  {
   "district": "拱墅区",
@@ -517,7 +579,8 @@ window.HZ_SCHOOLS = [
   "type": "公办独立初中",
   "cnt26": "185",
   "quota26": "38",
-  "note": "拱墅区老牌公办初中，三梯队公办"
+  "note": "拱墅区老牌公办初中，三梯队公办",
+  "alias": ""
  },
  {
   "district": "拱墅区",
@@ -527,7 +590,19 @@ window.HZ_SCHOOLS = [
   "type": "九年一贯制",
   "cnt26": "254",
   "quota26": "52",
-  "note": "拱墅区老牌九年一贯制名校，一梯队公办"
+  "note": "拱墅区老牌九年一贯制名校，一梯队公办",
+  "alias": ""
+ },
+ {
+  "district": "拱墅区",
+  "name": "杭州市安吉路实验学校（新天地校区）",
+  "tier": 2,
+  "nature": "公办",
+  "type": "公办九年一贯制（内设初中部）",
+  "cnt26": "54",
+  "quota26": "11",
+  "note": "安吉路实验学校新校区，首届初三毕业生，二梯队公办",
+  "alias": ""
  },
  {
   "district": "拱墅区",
@@ -537,7 +612,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "",
   "quota26": "",
-  "note": ""
+  "note": "",
+  "alias": ""
  },
  {
   "district": "拱墅区",
@@ -547,7 +623,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "254",
   "quota26": "52",
-  "note": "康桥板块老牌公办初中，三梯队公办"
+  "note": "康桥板块老牌公办初中，三梯队公办",
+  "alias": ""
  },
  {
   "district": "拱墅区",
@@ -557,7 +634,8 @@ window.HZ_SCHOOLS = [
   "type": "公办独立初中",
   "cnt26": "249",
   "quota26": "51",
-  "note": "拱墅区北部公办初中，三梯队公办"
+  "note": "拱墅区北部公办初中，三梯队公办",
+  "alias": ""
  },
  {
   "district": "拱墅区",
@@ -567,7 +645,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "439",
   "quota26": "90",
-  "note": "拱宸桥街道老牌公办初中，规模较大，三梯队公办"
+  "note": "拱宸桥街道老牌公办初中，规模较大，三梯队公办",
+  "alias": ""
  },
  {
   "district": "拱墅区",
@@ -577,7 +656,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "",
   "quota26": "",
-  "note": ""
+  "note": "",
+  "alias": ""
  },
  {
   "district": "拱墅区",
@@ -587,7 +667,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "无数据",
   "quota26": "0",
-  "note": "文晖板块老牌公办"
+  "note": "文晖板块老牌公办",
+  "alias": ""
  },
  {
   "district": "拱墅区",
@@ -597,7 +678,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "298",
   "quota26": "61",
-  "note": "拱墅区热门公办初中，二梯队公办"
+  "note": "拱墅区热门公办初中，二梯队公办",
+  "alias": ""
  },
  {
   "district": "拱墅区",
@@ -607,27 +689,30 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "102",
   "quota26": "20",
-  "note": "2026年停止招生"
+  "note": "2026年停止招生",
+  "alias": ""
+ },
+ {
+  "district": "拱墅区",
+  "tier": null,
+  "name": "杭州市文澜实验中学（慧澜校区）",
+  "nature": "公办",
+  "type": "独立初中",
+  "cnt26": "",
+  "quota26": "",
+  "note": "",
+  "alias": ""
  },
  {
   "district": "拱墅区",
   "tier": 1,
-  "name": "杭州市文澜实验中学（慧澜校区）",
-  "nature": "公办",
-  "type": "独立初中",
-  "cnt26": "459",
-  "quota26": "94",
-  "note": "文澜教育集团核心公办初中，拱墅区公办一梯队，2026年分配生94人"
- },
- {
-  "district": "拱墅区",
-  "tier": 3,
   "name": "杭州市文澜实验学校",
   "nature": "公办",
   "type": "九年一贯制",
-  "cnt26": "",
-  "quota26": "",
-  "note": "文澜系公办"
+  "cnt26": "459",
+  "quota26": "94",
+  "note": "文澜教育集团核心公办初中，拱墅区公办一梯队，2026年分配生94人",
+  "alias": ""
  },
  {
   "district": "拱墅区",
@@ -637,7 +722,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "",
   "quota26": "",
-  "note": ""
+  "note": "",
+  "alias": ""
  },
  {
   "district": "拱墅区",
@@ -647,7 +733,8 @@ window.HZ_SCHOOLS = [
   "type": "九年一贯制",
   "cnt26": "341",
   "quota26": "70",
-  "note": "拱墅区大型公办九年一贯制学校，三梯队公办"
+  "note": "拱墅区大型公办九年一贯制学校，三梯队公办",
+  "alias": ""
  },
  {
   "district": "拱墅区",
@@ -657,7 +744,8 @@ window.HZ_SCHOOLS = [
   "type": "公办初中",
   "cnt26": "",
   "quota26": "",
-  "note": ""
+  "note": "",
+  "alias": ""
  },
  {
   "district": "拱墅区",
@@ -667,7 +755,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "420",
   "quota26": "86",
-  "note": "含王马、仙林两个校区"
+  "note": "含王马、仙林两个校区",
+  "alias": ""
  },
  {
   "district": "拱墅区",
@@ -677,7 +766,8 @@ window.HZ_SCHOOLS = [
   "type": "九年一贯制",
   "cnt26": "254",
   "quota26": "52",
-  "note": "北景园板块公办初中，三梯队公办"
+  "note": "北景园板块公办初中，三梯队公办",
+  "alias": ""
  },
  {
   "district": "拱墅区",
@@ -687,7 +777,8 @@ window.HZ_SCHOOLS = [
   "type": "公办独立初中",
   "cnt26": "444",
   "quota26": "91",
-  "note": "朝晖板块老牌公办初中，二梯队公办"
+  "note": "朝晖板块老牌公办初中，二梯队公办",
+  "alias": ""
  },
  {
   "district": "拱墅区",
@@ -697,7 +788,8 @@ window.HZ_SCHOOLS = [
   "type": "公办独立初中",
   "cnt26": "532",
   "quota26": "109",
-  "note": "半山桃源板块公办初中，三梯队公办"
+  "note": "半山桃源板块公办初中，三梯队公办",
+  "alias": ""
  },
  {
   "district": "拱墅区",
@@ -707,7 +799,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "",
   "quota26": "",
-  "note": ""
+  "note": "",
+  "alias": ""
  },
  {
   "district": "拱墅区",
@@ -717,7 +810,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "",
   "quota26": "",
-  "note": ""
+  "note": "",
+  "alias": ""
  },
  {
   "district": "拱墅区",
@@ -727,17 +821,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "无数据",
   "quota26": "0",
-  "note": "2024年成立"
- },
- {
-  "district": "拱墅区",
-  "tier": 3,
-  "name": "杭州市育才大城北学校",
-  "nature": "公办",
-  "type": "九年一贯制",
-  "cnt26": "无数据",
-  "quota26": "0",
-  "note": "育才集团托管九年一贯制"
+  "note": "2024年成立",
+  "alias": ""
  },
  {
   "district": "拱墅区",
@@ -747,7 +832,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "无数据",
   "quota26": "0",
-  "note": "2025年正式启用"
+  "note": "2025年正式启用",
+  "alias": ""
  },
  {
   "district": "拱墅区",
@@ -757,7 +843,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "",
   "quota26": "",
-  "note": ""
+  "note": "",
+  "alias": ""
  },
  {
   "district": "拱墅区",
@@ -767,7 +854,8 @@ window.HZ_SCHOOLS = [
   "type": "公办九年一贯制（内设初中部）",
   "cnt26": "298",
   "quota26": "61",
-  "note": "东新板块公办初中，三梯队公办"
+  "note": "东新板块公办初中，三梯队公办",
+  "alias": ""
  },
  {
   "district": "拱墅区",
@@ -777,7 +865,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "无数据",
   "quota26": "0",
-  "note": "原下城区公办"
+  "note": "原下城区公办",
+  "alias": ""
  },
  {
   "district": "拱墅区",
@@ -787,7 +876,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "371",
   "quota26": "76",
-  "note": "拱墅区老牌公办初中，二梯队公办"
+  "note": "拱墅区老牌公办初中，二梯队公办",
+  "alias": ""
  },
  {
   "district": "拱墅区",
@@ -797,7 +887,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "415",
   "quota26": "85",
-  "note": "观成教育集团核心公办，一梯队公办，2026年分配生96人"
+  "note": "观成教育集团核心公办，一梯队公办，2026年分配生96人",
+  "alias": ""
  },
  {
   "district": "拱墅区",
@@ -807,7 +898,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "395",
   "quota26": "81",
-  "note": "锦绣育才教育集团核心民办，一梯队民办，2026年分配生114人"
+  "note": "锦绣育才教育集团核心民办，一梯队民办，2026年分配生114人",
+  "alias": ""
  },
  {
   "district": "拱墅区",
@@ -817,7 +909,8 @@ window.HZ_SCHOOLS = [
   "type": "九年一贯制",
   "cnt26": "",
   "quota26": "",
-  "note": ""
+  "note": "",
+  "alias": ""
  },
  {
   "district": "拱墅区",
@@ -827,7 +920,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "",
   "quota26": "",
-  "note": ""
+  "note": "",
+  "alias": ""
  },
  {
   "district": "拱墅区",
@@ -837,7 +931,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "无数据",
   "quota26": "0",
-  "note": "北部板块公办"
+  "note": "北部板块公办",
+  "alias": ""
  },
  {
   "district": "拱墅区",
@@ -847,7 +942,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "无数据",
   "quota26": "0",
-  "note": "原下城区老牌公办"
+  "note": "原下城区老牌公办",
+  "alias": ""
  },
  {
   "district": "拱墅区",
@@ -857,7 +953,8 @@ window.HZ_SCHOOLS = [
   "type": "公办独立初中",
   "cnt26": "293",
   "quota26": "60",
-  "note": "半山板块公办初中，三梯队公办"
+  "note": "半山板块公办初中，三梯队公办",
+  "alias": ""
  },
  {
   "district": "拱墅区",
@@ -867,7 +964,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "420",
   "quota26": "86",
-  "note": "朝晖板块老牌公办初中，二梯队公办"
+  "note": "朝晖板块老牌公办初中，二梯队公办",
+  "alias": ""
  },
  {
   "district": "拱墅区",
@@ -877,7 +975,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "无数据",
   "quota26": "0",
-  "note": "半山板块民办，设国内班与特色班"
+  "note": "半山板块民办，设国内班与特色班",
+  "alias": ""
  },
  {
   "district": "拱墅区",
@@ -887,7 +986,8 @@ window.HZ_SCHOOLS = [
   "type": "公办九年一贯制（内设初中部）",
   "cnt26": "444",
   "quota26": "91",
-  "note": "十四中教育集团附属学校，二梯队公办"
+  "note": "十四中教育集团附属学校，二梯队公办",
+  "alias": ""
  },
  {
   "district": "拱墅区",
@@ -897,7 +997,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "429",
   "quota26": "88",
-  "note": "锦绣育才教育集团核心民办，拱墅区民办一梯队天花板，2026年分配生89人"
+  "note": "锦绣育才教育集团核心民办，拱墅区民办一梯队天花板，2026年分配生89人",
+  "alias": ""
  },
  {
   "district": "拱墅区",
@@ -907,7 +1008,8 @@ window.HZ_SCHOOLS = [
   "type": "九年一贯制",
   "cnt26": "180",
   "quota26": "37",
-  "note": "2026年停止招生"
+  "note": "2026年停止招生",
+  "alias": ""
  },
  {
   "district": "拱墅区",
@@ -917,17 +1019,30 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "",
   "quota26": "",
-  "note": ""
+  "note": "",
+  "alias": ""
+ },
+ {
+  "district": "拱墅区",
+  "tier": 3,
+  "name": "育才大城北",
+  "nature": "公办",
+  "type": "九年一贯制",
+  "cnt26": "无数据",
+  "quota26": "0",
+  "note": "育才集团托管九年一贯制",
+  "alias": "杭州市育才大城北学校"
  },
  {
   "district": "西湖区",
-  "tier": 3,
+  "tier": null,
   "name": "三墩中学振华校区",
   "nature": "公办",
   "type": "独立初中",
-  "cnt26": "344",
-  "quota26": "105",
-  "note": ""
+  "cnt26": "",
+  "quota26": "",
+  "note": "",
+  "alias": ""
  },
  {
   "district": "西湖区",
@@ -937,17 +1052,30 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "",
   "quota26": "",
-  "note": ""
+  "note": "",
+  "alias": ""
  },
  {
   "district": "西湖区",
-  "tier": 3,
+  "tier": 4,
+  "name": "丰潭中学",
+  "nature": "公办",
+  "type": "",
+  "cnt26": "",
+  "quota26": "",
+  "note": "西湖区公办普通校",
+  "alias": ""
+ },
+ {
+  "district": "西湖区",
+  "tier": null,
   "name": "丰潭中学丰潭校区",
   "nature": "公办",
   "type": "独立初中",
-  "cnt26": "暂无公开精确数据",
-  "quota26": "70",
-  "note": "西湖区公办普通校"
+  "cnt26": "",
+  "quota26": "",
+  "note": "",
+  "alias": ""
  },
  {
   "district": "西湖区",
@@ -957,7 +1085,30 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "",
   "quota26": "",
-  "note": ""
+  "note": "",
+  "alias": ""
+ },
+ {
+  "district": "西湖区",
+  "tier": 1,
+  "name": "保俶塔申花实验",
+  "nature": "公办",
+  "type": "九年一贯制",
+  "cnt26": "400",
+  "quota26": "42",
+  "note": "",
+  "alias": "杭州市保俶塔申花实验学校（初中部）"
+ },
+ {
+  "district": "西湖区",
+  "tier": 1,
+  "name": "十三中教育集团",
+  "nature": "公办",
+  "type": "独立初中",
+  "cnt26": "1100",
+  "quota26": "224",
+  "note": "",
+  "alias": "十三中教育集团（总校）杭十三中"
  },
  {
   "district": "西湖区",
@@ -967,17 +1118,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "443.90243902439",
   "quota26": "91",
-  "note": "十三中教育集团"
- },
- {
-  "district": "西湖区",
-  "tier": 1,
-  "name": "十三中教育集团（总校）杭十三中",
-  "nature": "公办",
-  "type": "独立初中",
-  "cnt26": "1100",
-  "quota26": "224",
-  "note": "西湖区公办老牌名校"
+  "note": "十三中教育集团",
+  "alias": ""
  },
  {
   "district": "西湖区",
@@ -987,7 +1129,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "418",
   "quota26": "47",
-  "note": ""
+  "note": "",
+  "alias": ""
  },
  {
   "district": "西湖区",
@@ -997,7 +1140,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "",
   "quota26": "",
-  "note": ""
+  "note": "",
+  "alias": ""
  },
  {
   "district": "西湖区",
@@ -1007,17 +1151,30 @@ window.HZ_SCHOOLS = [
   "type": "九年一贯制",
   "cnt26": "暂无公开精确数据",
   "quota26": "0",
-  "note": ""
+  "note": "",
+  "alias": ""
  },
  {
   "district": "西湖区",
-  "name": "杭州外国语学校",
   "tier": 1,
+  "name": "杭州外国语学校",
   "nature": "公办",
   "type": "",
   "cnt26": "",
   "quota26": "",
-  "note": "全省招生，大量保送，不参与中考排名"
+  "note": "全省招生，大量保送，不参与中考排名",
+  "alias": ""
+ },
+ {
+  "district": "西湖区",
+  "name": "杭州市三墩中学",
+  "tier": 3,
+  "nature": "公办",
+  "type": "公办独立初中",
+  "cnt26": "344",
+  "quota26": "105",
+  "note": "",
+  "alias": ""
  },
  {
   "district": "西湖区",
@@ -1027,7 +1184,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "609.756097560976",
   "quota26": "125",
-  "note": ""
+  "note": "",
+  "alias": ""
  },
  {
   "district": "西湖区",
@@ -1037,17 +1195,41 @@ window.HZ_SCHOOLS = [
   "type": "完全中学",
   "cnt26": "0",
   "quota26": "0",
-  "note": "含初中、高中"
+  "note": "含初中、高中",
+  "alias": ""
  },
  {
   "district": "西湖区",
-  "tier": 2,
+  "name": "杭州市丰潭中学（丰潭校区、景汇校区）",
+  "tier": 3,
+  "nature": "公办",
+  "type": "公办独立初中",
+  "cnt26": "暂无公开精确数据",
+  "quota26": "70",
+  "note": "",
+  "alias": ""
+ },
+ {
+  "district": "西湖区",
+  "tier": 4,
   "name": "杭州市之江实验中学",
   "nature": "公办（民转公）",
   "type": "独立初中",
+  "cnt26": "",
+  "quota26": "",
+  "note": "2026年停止招生",
+  "alias": ""
+ },
+ {
+  "district": "西湖区",
+  "name": "杭州市之江实验中学（民转公）",
+  "tier": 2,
+  "nature": "公办",
+  "type": "公办独立初中",
   "cnt26": "253.658536585366",
   "quota26": "52",
-  "note": "2026年停止招生"
+  "note": "",
+  "alias": ""
  },
  {
   "district": "西湖区",
@@ -1057,37 +1239,52 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "",
   "quota26": "",
-  "note": "西湖风景名胜区民办"
+  "note": "西湖风景名胜区民办",
+  "alias": ""
  },
  {
   "district": "西湖区",
-  "tier": 1,
+  "tier": 3,
   "name": "杭州市保俶塔实验学校（初中部）",
   "nature": "公办",
   "type": "九年一贯制",
+  "cnt26": "",
+  "quota26": "",
+  "note": "保俶塔系本部",
+  "alias": ""
+ },
+ {
+  "district": "西湖区",
+  "name": "杭州市保俶塔实验学校（本部）",
+  "tier": 1,
+  "nature": "公办",
+  "type": "公办九年一贯制（内设初中部）",
   "cnt26": "419.512195121951",
   "quota26": "86",
-  "note": "保俶塔系本部"
+  "note": "",
+  "alias": ""
  },
  {
   "district": "西湖区",
-  "tier": 1,
-  "name": "杭州市保俶塔申花实验学校（初中部）",
-  "nature": "公办",
-  "type": "九年一贯制",
-  "cnt26": "400",
-  "quota26": "42",
-  "note": "西湖区公办第一"
- },
- {
-  "district": "西湖区",
-  "tier": 1,
+  "tier": 3,
   "name": "杭州市公益中学",
   "nature": "公办（民转公）",
   "type": "独立初中",
+  "cnt26": "",
+  "quota26": "",
+  "note": "2026年正常招生，需摇号",
+  "alias": ""
+ },
+ {
+  "district": "西湖区",
+  "name": "杭州市公益中学（民转公）",
+  "tier": 1,
+  "nature": "公办",
+  "type": "公办独立初中",
   "cnt26": "400",
   "quota26": "104",
-  "note": "2026年正常招生，需摇号"
+  "note": "",
+  "alias": ""
  },
  {
   "district": "西湖区",
@@ -1097,7 +1294,8 @@ window.HZ_SCHOOLS = [
   "type": "公办独立初中",
   "cnt26": "243",
   "quota26": "34",
-  "note": ""
+  "note": "",
+  "alias": ""
  },
  {
   "district": "西湖区",
@@ -1107,7 +1305,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "324",
   "quota26": "620",
-  "note": "西湖区乡镇初中"
+  "note": "西湖区乡镇初中",
+  "alias": ""
  },
  {
   "district": "西湖区",
@@ -1117,7 +1316,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "448.780487804878",
   "quota26": "92",
-  "note": ""
+  "note": "",
+  "alias": ""
  },
  {
   "district": "西湖区",
@@ -1127,7 +1327,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "0",
   "quota26": "0",
-  "note": ""
+  "note": "",
+  "alias": ""
  },
  {
   "district": "西湖区",
@@ -1137,7 +1338,8 @@ window.HZ_SCHOOLS = [
   "type": "公办独立初中",
   "cnt26": "400",
   "quota26": "82",
-  "note": ""
+  "note": "",
+  "alias": ""
  },
  {
   "district": "西湖区",
@@ -1147,7 +1349,8 @@ window.HZ_SCHOOLS = [
   "type": "公办独立初中",
   "cnt26": "暂无公开精确数据",
   "quota26": "103",
-  "note": ""
+  "note": "",
+  "alias": ""
  },
  {
   "district": "西湖区",
@@ -1157,7 +1360,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "424.390243902439",
   "quota26": "87",
-  "note": "西湖区公办黑马，今年大爆发"
+  "note": "西湖区公办黑马，今年大爆发",
+  "alias": ""
  },
  {
   "district": "西湖区",
@@ -1167,7 +1371,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "619.512195121951",
   "quota26": "127",
-  "note": "西湖区乡镇初中"
+  "note": "西湖区乡镇初中",
+  "alias": ""
  },
  {
   "district": "西湖区",
@@ -1177,7 +1382,8 @@ window.HZ_SCHOOLS = [
   "type": "十二年一贯制",
   "cnt26": "暂无公开精确数据",
   "quota26": "0",
-  "note": ""
+  "note": "",
+  "alias": ""
  },
  {
   "district": "西湖区",
@@ -1187,7 +1393,8 @@ window.HZ_SCHOOLS = [
   "type": "九年一贯制",
   "cnt26": "暂无公开精确数据",
   "quota26": "35",
-  "note": ""
+  "note": "",
+  "alias": ""
  },
  {
   "district": "西湖区",
@@ -1197,7 +1404,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "517.073170731707",
   "quota26": "106",
-  "note": "西湖区公办第二梯队"
+  "note": "西湖区公办第二梯队",
+  "alias": ""
  },
  {
   "district": "西湖区",
@@ -1207,7 +1415,8 @@ window.HZ_SCHOOLS = [
   "type": "公办九年一贯制（内设初中部）",
   "cnt26": "0",
   "quota26": "0",
-  "note": ""
+  "note": "",
+  "alias": ""
  },
  {
   "district": "西湖区",
@@ -1217,7 +1426,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "228",
   "quota26": "70",
-  "note": "杭州老牌民办"
+  "note": "杭州老牌民办",
+  "alias": ""
  },
  {
   "district": "西湖区",
@@ -1227,7 +1437,19 @@ window.HZ_SCHOOLS = [
   "type": "九年一贯制",
   "cnt26": "292.682926829268",
   "quota26": "60",
-  "note": ""
+  "note": "",
+  "alias": ""
+ },
+ {
+  "district": "西湖区",
+  "name": "翠苑中学",
+  "tier": 2,
+  "nature": "公办",
+  "type": "公办独立初中",
+  "cnt26": "356.09756097561",
+  "quota26": "73",
+  "note": "",
+  "alias": "杭州市翠苑中学（翠苑校区、文华校区）"
  },
  {
   "district": "西湖区",
@@ -1237,27 +1459,19 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "",
   "quota26": "",
-  "note": ""
+  "note": "",
+  "alias": ""
  },
  {
   "district": "西湖区",
-  "tier": 2,
+  "tier": null,
   "name": "翠苑中学翠苑校区",
   "nature": "公办",
   "type": "独立初中",
-  "cnt26": "356.09756097561",
-  "quota26": "73",
-  "note": "翠苑教育集团"
- },
- {
-  "district": "滨江区",
-  "name": "启正中学",
-  "tier": 1,
-  "nature": "民办",
-  "type": "",
   "cnt26": "",
   "quota26": "",
-  "note": "小班化教学，前三率公办民办中领先"
+  "note": "",
+  "alias": ""
  },
  {
   "district": "滨江区",
@@ -1267,17 +1481,19 @@ window.HZ_SCHOOLS = [
   "type": "十二年一贯制",
   "cnt26": "",
   "quota26": "",
-  "note": ""
+  "note": "",
+  "alias": ""
  },
  {
   "district": "滨江区",
-  "name": "杭州二中滨江校区初中部",
   "tier": 2,
+  "name": "杭州二中滨江校区初中部",
   "nature": "公办",
   "type": "",
   "cnt26": "",
   "quota26": "",
-  "note": "杭二嫡系初中"
+  "note": "杭二嫡系初中",
+  "alias": ""
  },
  {
   "district": "滨江区",
@@ -1287,7 +1503,8 @@ window.HZ_SCHOOLS = [
   "type": "九年一贯制",
   "cnt26": "275",
   "quota26": "60",
-  "note": "2026年正常招生，需摇号"
+  "note": "2026年正常招生，需摇号",
+  "alias": ""
  },
  {
   "district": "滨江区",
@@ -1297,7 +1514,8 @@ window.HZ_SCHOOLS = [
   "type": "九年一贯制",
   "cnt26": "200",
   "quota26": "41",
-  "note": ""
+  "note": "",
+  "alias": ""
  },
  {
   "district": "滨江区",
@@ -1307,7 +1525,8 @@ window.HZ_SCHOOLS = [
   "type": "十二年一贯制",
   "cnt26": "",
   "quota26": "",
-  "note": ""
+  "note": "",
+  "alias": ""
  },
  {
   "district": "滨江区",
@@ -1317,7 +1536,8 @@ window.HZ_SCHOOLS = [
   "type": "九年一贯制",
   "cnt26": "",
   "quota26": "",
-  "note": ""
+  "note": "",
+  "alias": ""
  },
  {
   "district": "滨江区",
@@ -1327,7 +1547,8 @@ window.HZ_SCHOOLS = [
   "type": "完全中学",
   "cnt26": "",
   "quota26": "",
-  "note": "含初中、高中"
+  "note": "含初中、高中",
+  "alias": ""
  },
  {
   "district": "滨江区",
@@ -1337,7 +1558,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "260",
   "quota26": "53",
-  "note": "滨江公办普通校"
+  "note": "滨江公办普通校",
+  "alias": ""
  },
  {
   "district": "滨江区",
@@ -1347,7 +1569,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "331",
   "quota26": "68",
-  "note": "（滨和教育集团）"
+  "note": "（滨和教育集团）",
+  "alias": ""
  },
  {
   "district": "滨江区",
@@ -1357,7 +1580,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "333",
   "quota26": "68",
-  "note": ""
+  "note": "",
+  "alias": ""
  },
  {
   "district": "滨江区",
@@ -1367,7 +1591,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "210",
   "quota26": "43",
-  "note": ""
+  "note": "",
+  "alias": ""
  },
  {
   "district": "滨江区",
@@ -1377,7 +1602,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "146",
   "quota26": "30",
-  "note": ""
+  "note": "",
+  "alias": ""
  },
  {
   "district": "滨江区",
@@ -1387,7 +1613,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "280",
   "quota26": "57",
-  "note": "（滨和教育集团）"
+  "note": "（滨和教育集团）",
+  "alias": ""
  },
  {
   "district": "滨江区",
@@ -1397,7 +1624,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "",
   "quota26": "",
-  "note": ""
+  "note": "",
+  "alias": ""
  },
  {
   "district": "滨江区",
@@ -1407,7 +1635,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "434",
   "quota26": "89",
-  "note": "滨江公办普通校"
+  "note": "滨江公办普通校",
+  "alias": ""
  },
  {
   "district": "滨江区",
@@ -1417,7 +1646,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "514",
   "quota26": "105",
-  "note": "滨江公办第二梯队"
+  "note": "滨江公办第二梯队",
+  "alias": ""
  },
  {
   "district": "滨江区",
@@ -1427,7 +1657,8 @@ window.HZ_SCHOOLS = [
   "type": "九年一贯制",
   "cnt26": "603",
   "quota26": "123",
-  "note": "滨江公办老牌强校"
+  "note": "滨江公办老牌强校",
+  "alias": ""
  },
  {
   "district": "滨江区",
@@ -1437,7 +1668,8 @@ window.HZ_SCHOOLS = [
   "type": "九年一贯制",
   "cnt26": "214",
   "quota26": "44",
-  "note": ""
+  "note": "",
+  "alias": ""
  },
  {
   "district": "滨江区",
@@ -1447,7 +1679,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "223",
   "quota26": "47",
-  "note": "滨江区第二，优高率91%全市前列"
+  "note": "滨江区第二，优高率91%全市前列",
+  "alias": ""
  },
  {
   "district": "滨江区",
@@ -1457,7 +1690,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "200",
   "quota26": "41",
-  "note": ""
+  "note": "",
+  "alias": ""
  },
  {
   "district": "滨江区",
@@ -1467,7 +1701,8 @@ window.HZ_SCHOOLS = [
   "type": "九年一贯制",
   "cnt26": "161",
   "quota26": "33",
-  "note": ""
+  "note": "",
+  "alias": ""
  },
  {
   "district": "滨江区",
@@ -1477,37 +1712,19 @@ window.HZ_SCHOOLS = [
   "type": "九年一贯制",
   "cnt26": "730",
   "quota26": "149",
-  "note": "滨江区公办第一"
+  "note": "滨江区公办第一",
+  "alias": ""
  },
  {
   "district": "钱塘区",
-  "name": "临江一中",
   "tier": 4,
+  "name": "临江一中",
   "nature": "公办",
   "type": "",
   "cnt26": "",
   "quota26": "",
-  "note": "钱塘区东部乡镇初中"
- },
- {
-  "district": "钱塘区",
-  "name": "养正中学",
-  "tier": 3,
-  "nature": "民办",
-  "type": "",
-  "cnt26": "",
-  "quota26": "",
-  "note": "钱塘区民办第一，优高率近80%"
- },
- {
-  "district": "钱塘区",
-  "name": "文海实验学校",
-  "tier": 3,
-  "nature": "公办",
-  "type": "",
-  "cnt26": "",
-  "quota26": "",
-  "note": "钱塘区公办第一"
+  "note": "钱塘区东部乡镇初中",
+  "alias": ""
  },
  {
   "district": "钱塘区",
@@ -1517,7 +1734,8 @@ window.HZ_SCHOOLS = [
   "type": "九年一贯制",
   "cnt26": "348",
   "quota26": "72",
-  "note": ""
+  "note": "钱塘区民办第一，优高率近80%",
+  "alias": ""
  },
  {
   "district": "钱塘区",
@@ -1527,7 +1745,8 @@ window.HZ_SCHOOLS = [
   "type": "九年一贯制",
   "cnt26": "210",
   "quota26": "44",
-  "note": "杭高教育集团民办"
+  "note": "杭高教育集团民办",
+  "alias": ""
  },
  {
   "district": "钱塘区",
@@ -1537,7 +1756,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "498",
   "quota26": "120",
-  "note": "下沙板块公办"
+  "note": "下沙板块公办",
+  "alias": ""
  },
  {
   "district": "钱塘区",
@@ -1547,7 +1767,8 @@ window.HZ_SCHOOLS = [
   "type": "十二年一贯制",
   "cnt26": "168（打9折）",
   "quota26": "29",
-  "note": ""
+  "note": "",
+  "alias": ""
  },
  {
   "district": "钱塘区",
@@ -1557,7 +1778,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "510",
   "quota26": "110",
-  "note": ""
+  "note": "",
+  "alias": ""
  },
  {
   "district": "钱塘区",
@@ -1567,17 +1789,30 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "534",
   "quota26": "104",
-  "note": ""
+  "note": "",
+  "alias": ""
  },
  {
   "district": "钱塘区",
-  "tier": 5,
+  "tier": 3,
   "name": "杭州市文海实验中学",
   "nature": "公办",
   "type": "独立初中",
   "cnt26": "",
   "quota26": "",
-  "note": ""
+  "note": "钱塘区公办第一",
+  "alias": ""
+ },
+ {
+  "district": "钱塘区",
+  "name": "杭州市文海实验中学（河庄）",
+  "tier": 5,
+  "nature": "公办",
+  "type": "独立初中",
+  "cnt26": "",
+  "quota26": "",
+  "note": "",
+  "alias": ""
  },
  {
   "district": "钱塘区",
@@ -1587,7 +1822,8 @@ window.HZ_SCHOOLS = [
   "type": "九年一贯制",
   "cnt26": "234",
   "quota26": "48",
-  "note": ""
+  "note": "",
+  "alias": ""
  },
  {
   "district": "钱塘区",
@@ -1597,7 +1833,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "620",
   "quota26": "127",
-  "note": ""
+  "note": "",
+  "alias": ""
  },
  {
   "district": "钱塘区",
@@ -1607,7 +1844,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "240",
   "quota26": "49",
-  "note": ""
+  "note": "",
+  "alias": ""
  },
  {
   "district": "钱塘区",
@@ -1617,7 +1855,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "625",
   "quota26": "126",
-  "note": "钱塘区公办第二"
+  "note": "钱塘区公办第二",
+  "alias": ""
  },
  {
   "district": "钱塘区",
@@ -1627,7 +1866,8 @@ window.HZ_SCHOOLS = [
   "type": "九年一贯制",
   "cnt26": "",
   "quota26": "新办，无毕业生",
-  "note": ""
+  "note": "",
+  "alias": ""
  },
  {
   "district": "钱塘区",
@@ -1637,7 +1877,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "430",
   "quota26": "89",
-  "note": "钱塘区东部乡镇初中"
+  "note": "钱塘区东部乡镇初中",
+  "alias": ""
  },
  {
   "district": "钱塘区",
@@ -1647,7 +1888,8 @@ window.HZ_SCHOOLS = [
   "type": "九年一贯制",
   "cnt26": "",
   "quota26": "新办，无毕业生",
-  "note": ""
+  "note": "",
+  "alias": ""
  },
  {
   "district": "钱塘区",
@@ -1657,7 +1899,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "517",
   "quota26": "106",
-  "note": ""
+  "note": "",
+  "alias": ""
  },
  {
   "district": "钱塘区",
@@ -1667,7 +1910,8 @@ window.HZ_SCHOOLS = [
   "type": "九年一贯制",
   "cnt26": "285",
   "quota26": "58",
-  "note": ""
+  "note": "",
+  "alias": ""
  },
  {
   "district": "钱塘区",
@@ -1677,7 +1921,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "380",
   "quota26": "74",
-  "note": ""
+  "note": "",
+  "alias": ""
  },
  {
   "district": "钱塘区",
@@ -1687,7 +1932,8 @@ window.HZ_SCHOOLS = [
   "type": "九年一贯制",
   "cnt26": "298",
   "quota26": "61",
-  "note": ""
+  "note": "",
+  "alias": ""
  },
  {
   "district": "钱塘区",
@@ -1697,37 +1943,30 @@ window.HZ_SCHOOLS = [
   "type": "十二年一贯制",
   "cnt26": "",
   "quota26": "新办，无毕业生",
-  "note": ""
+  "note": "",
+  "alias": ""
  },
  {
   "district": "钱塘区",
-  "name": "钱塘外国语学校",
   "tier": 3,
+  "name": "钱塘外国语学校",
   "nature": "民办",
   "type": "",
   "cnt26": "",
   "quota26": "",
-  "note": "首届中考，优高率78.7%"
+  "note": "首届中考，优高率78.7%",
+  "alias": ""
  },
  {
   "district": "萧山区",
-  "name": "临浦镇中",
   "tier": 4,
+  "name": "义桥实验",
   "nature": "公办",
-  "type": "",
+  "type": "九年一贯制",
   "cnt26": "",
   "quota26": "",
-  "note": "萧山区南片龙头"
- },
- {
-  "district": "萧山区",
-  "name": "党湾初中",
-  "tier": 4,
-  "nature": "公办",
-  "type": "",
-  "cnt26": "",
-  "quota26": "",
-  "note": "萧山东片学校"
+  "note": "含初中部",
+  "alias": "萧山区义桥实验学校"
  },
  {
   "district": "萧山区",
@@ -1737,37 +1976,41 @@ window.HZ_SCHOOLS = [
   "type": "完全中学",
   "cnt26": "",
   "quota26": "",
-  "note": "含初中部，需摇号"
+  "note": "含初中部，需摇号",
+  "alias": ""
  },
  {
   "district": "萧山区",
-  "name": "湘湖未来学校",
   "tier": 1,
+  "name": "湘湖未来学校",
   "nature": "民办",
   "type": "",
   "cnt26": "",
   "quota26": "",
-  "note": "萧山区第一，重高率82.1%，普高率100%"
+  "note": "萧山区第一，重高率82.1%，普高率100%",
+  "alias": ""
  },
  {
   "district": "萧山区",
+  "tier": 4,
   "name": "瓜沥一中",
-  "tier": 4,
   "nature": "公办",
-  "type": "",
+  "type": "独立初中",
   "cnt26": "",
   "quota26": "",
-  "note": "萧山东片龙头"
+  "note": "瓜沥镇核心公办初中",
+  "alias": "萧山区瓜沥镇第一初级中学"
  },
  {
   "district": "萧山区",
-  "name": "益农初中",
   "tier": 4,
+  "name": "益农初中",
   "nature": "公办",
   "type": "",
   "cnt26": "",
   "quota26": "",
-  "note": "萧山东片学校"
+  "note": "萧山东片学校",
+  "alias": ""
  },
  {
   "district": "萧山区",
@@ -1777,37 +2020,30 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "",
   "quota26": "",
-  "note": "万向集团配套公办初中"
+  "note": "万向集团配套公办初中",
+  "alias": ""
  },
  {
   "district": "萧山区",
-  "tier": null,
+  "tier": 4,
   "name": "萧山区临浦镇初级中学",
   "nature": "公办",
   "type": "独立初中",
   "cnt26": "",
   "quota26": "",
-  "note": "临浦镇核心公办初中"
+  "note": "临浦镇核心公办初中",
+  "alias": ""
  },
  {
   "district": "萧山区",
   "tier": 4,
-  "name": "萧山区义桥实验学校",
-  "nature": "公办",
-  "type": "九年一贯制",
-  "cnt26": "",
-  "quota26": "",
-  "note": "含初中部"
- },
- {
-  "district": "萧山区",
-  "tier": null,
   "name": "萧山区党湾镇初级中学",
   "nature": "公办",
   "type": "独立初中",
   "cnt26": "",
   "quota26": "",
-  "note": "党湾镇公办初中"
+  "note": "党湾镇公办初中",
+  "alias": ""
  },
  {
   "district": "萧山区",
@@ -1817,7 +2053,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "",
   "quota26": "",
-  "note": "北干初中教育集团核心校"
+  "note": "北干初中教育集团核心校",
+  "alias": ""
  },
  {
   "district": "萧山区",
@@ -1827,7 +2064,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "",
   "quota26": "",
-  "note": "回澜初中教育集团核心校"
+  "note": "回澜初中教育集团核心校",
+  "alias": ""
  },
  {
   "district": "萧山区",
@@ -1837,7 +2075,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "",
   "quota26": "",
-  "note": "城南初中教育集团核心校"
+  "note": "城南初中教育集团核心校",
+  "alias": ""
  },
  {
   "district": "萧山区",
@@ -1847,7 +2086,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "",
   "quota26": "",
-  "note": "宁围街道公办初中"
+  "note": "宁围街道公办初中",
+  "alias": ""
  },
  {
   "district": "萧山区",
@@ -1857,7 +2097,8 @@ window.HZ_SCHOOLS = [
   "type": "九年一贯制",
   "cnt26": "",
   "quota26": "",
-  "note": "含初中部，需摇号"
+  "note": "含初中部，需摇号",
+  "alias": ""
  },
  {
   "district": "萧山区",
@@ -1867,7 +2108,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "",
   "quota26": "",
-  "note": "2025年新启用公办初中"
+  "note": "2025年新启用公办初中",
+  "alias": ""
  },
  {
   "district": "萧山区",
@@ -1877,7 +2119,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "",
   "quota26": "",
-  "note": "戴村镇公办初中"
+  "note": "戴村镇公办初中",
+  "alias": ""
  },
  {
   "district": "萧山区",
@@ -1887,7 +2130,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "",
   "quota26": "",
-  "note": "所前镇公办初中"
+  "note": "所前镇公办初中",
+  "alias": ""
  },
  {
   "district": "萧山区",
@@ -1897,7 +2141,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "",
   "quota26": "",
-  "note": "新塘街道公办初中"
+  "note": "新塘街道公办初中",
+  "alias": ""
  },
  {
   "district": "萧山区",
@@ -1907,7 +2152,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "",
   "quota26": "",
-  "note": "新街镇核心公办初中"
+  "note": "新街镇核心公办初中",
+  "alias": ""
  },
  {
   "district": "萧山区",
@@ -1917,7 +2163,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "",
   "quota26": "",
-  "note": "河上镇公办初中"
+  "note": "河上镇公办初中",
+  "alias": ""
  },
  {
   "district": "萧山区",
@@ -1927,7 +2174,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "",
   "quota26": "",
-  "note": "浦阳镇公办初中"
+  "note": "浦阳镇公办初中",
+  "alias": ""
  },
  {
   "district": "萧山区",
@@ -1937,7 +2185,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "",
   "quota26": "",
-  "note": "高桥初中教育集团成员校"
+  "note": "高桥初中教育集团成员校",
+  "alias": ""
  },
  {
   "district": "萧山区",
@@ -1947,17 +2196,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "",
   "quota26": "",
-  "note": "原坎山镇公办初中"
- },
- {
-  "district": "萧山区",
-  "tier": null,
-  "name": "萧山区瓜沥镇第一初级中学",
-  "nature": "公办",
-  "type": "独立初中",
-  "cnt26": "",
-  "quota26": "",
-  "note": "瓜沥镇核心公办初中"
+  "note": "原坎山镇公办初中",
+  "alias": ""
  },
  {
   "district": "萧山区",
@@ -1967,7 +2207,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "",
   "quota26": "",
-  "note": "盈丰街道公办初中"
+  "note": "盈丰街道公办初中",
+  "alias": ""
  },
  {
   "district": "萧山区",
@@ -1977,7 +2218,8 @@ window.HZ_SCHOOLS = [
   "type": "九年一贯制",
   "cnt26": "",
   "quota26": "",
-  "note": "含初中部"
+  "note": "含初中部",
+  "alias": ""
  },
  {
   "district": "萧山区",
@@ -1987,7 +2229,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "",
   "quota26": "",
-  "note": "虎山路初中教育集团核心校"
+  "note": "虎山路初中教育集团核心校",
+  "alias": ""
  },
  {
   "district": "萧山区",
@@ -1997,7 +2240,8 @@ window.HZ_SCHOOLS = [
   "type": "九年一贯制",
   "cnt26": "",
   "quota26": "",
-  "note": "含初中部"
+  "note": "含初中部",
+  "alias": ""
  },
  {
   "district": "萧山区",
@@ -2007,7 +2251,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "",
   "quota26": "",
-  "note": "衙前镇公办初中"
+  "note": "衙前镇公办初中",
+  "alias": ""
  },
  {
   "district": "萧山区",
@@ -2017,7 +2262,8 @@ window.HZ_SCHOOLS = [
   "type": "九年一贯制",
   "cnt26": "",
   "quota26": "",
-  "note": "含初中部"
+  "note": "含初中部",
+  "alias": ""
  },
  {
   "district": "萧山区",
@@ -2027,7 +2273,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "",
   "quota26": "",
-  "note": "进化镇公办初中"
+  "note": "进化镇公办初中",
+  "alias": ""
  },
  {
   "district": "萧山区",
@@ -2037,7 +2284,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "",
   "quota26": "",
-  "note": "金山初中教育集团核心校"
+  "note": "金山初中教育集团核心校",
+  "alias": ""
  },
  {
   "district": "萧山区",
@@ -2047,7 +2295,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "",
   "quota26": "",
-  "note": "闻堰街道公办初中"
+  "note": "闻堰街道公办初中",
+  "alias": ""
  },
  {
   "district": "萧山区",
@@ -2057,7 +2306,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "",
   "quota26": "",
-  "note": "靖江街道公办初中"
+  "note": "靖江街道公办初中",
+  "alias": ""
  },
  {
   "district": "萧山区",
@@ -2067,67 +2317,63 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "",
   "quota26": "",
-  "note": "高桥初中教育集团核心校"
+  "note": "高桥初中教育集团核心校",
+  "alias": ""
  },
  {
   "district": "萧山区",
-  "tier": null,
+  "tier": 2,
   "name": "萧山区高桥金帆实验学校",
   "nature": "民办",
   "type": "九年一贯制",
   "cnt26": "",
   "quota26": "",
-  "note": "含初中部，需摇号"
+  "note": "含初中部，需摇号",
+  "alias": ""
  },
  {
   "district": "萧山区",
+  "tier": 3,
   "name": "萧山实验中学",
-  "tier": 3,
   "nature": "民办",
   "type": "",
   "cnt26": "",
   "quota26": "",
-  "note": "萧山区民办"
- },
- {
-  "district": "萧山区",
-  "name": "金帆学校",
-  "tier": 2,
-  "nature": "民办",
-  "type": "",
-  "cnt26": "",
-  "quota26": "",
-  "note": "萧山区民办"
+  "note": "萧山区民办",
+  "alias": ""
  },
  {
   "district": "余杭区",
+  "tier": 3,
   "name": "余杭一中实验",
-  "tier": 3,
   "nature": "公办",
   "type": "",
   "cnt26": "",
   "quota26": "",
-  "note": "余杭区公办"
+  "note": "余杭区公办",
+  "alias": ""
  },
  {
   "district": "余杭区",
-  "name": "天元公学",
   "tier": 1,
+  "name": "天元公学",
   "nature": "民办",
   "type": "",
   "cnt26": "",
   "quota26": "",
-  "note": "余杭区第一，杭二教育集团"
+  "note": "余杭区第一，杭二教育集团",
+  "alias": ""
  },
  {
   "district": "余杭区",
-  "name": "未来科技城海创园",
   "tier": 3,
+  "name": "未来科技城海创园",
   "nature": "公办",
   "type": "",
   "cnt26": "",
   "quota26": "",
-  "note": "未来科技城公办第一"
+  "note": "未来科技城公办第一",
+  "alias": ""
  },
  {
   "district": "余杭区",
@@ -2137,7 +2383,8 @@ window.HZ_SCHOOLS = [
   "type": "九年一贯制",
   "cnt26": "",
   "quota26": "",
-  "note": "含初中部，需摇号"
+  "note": "含初中部，需摇号",
+  "alias": ""
  },
  {
   "district": "余杭区",
@@ -2147,7 +2394,8 @@ window.HZ_SCHOOLS = [
   "type": "九年一贯制",
   "cnt26": "105",
   "quota26": "15",
-  "note": "含初中部，需摇号"
+  "note": "含初中部，需摇号",
+  "alias": ""
  },
  {
   "district": "余杭区",
@@ -2157,7 +2405,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "360",
   "quota26": "60",
-  "note": "中泰街道公办初中"
+  "note": "中泰街道公办初中",
+  "alias": ""
  },
  {
   "district": "余杭区",
@@ -2167,7 +2416,8 @@ window.HZ_SCHOOLS = [
   "type": "九年一贯制",
   "cnt26": "",
   "quota26": "",
-  "note": "含初中部，需摇号"
+  "note": "含初中部，需摇号",
+  "alias": ""
  },
  {
   "district": "余杭区",
@@ -2177,7 +2427,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "403",
   "quota26": "56",
-  "note": "五常街道公办初中"
+  "note": "五常街道公办初中",
+  "alias": ""
  },
  {
   "district": "余杭区",
@@ -2187,7 +2438,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "430",
   "quota26": "122",
-  "note": "仁和街道公办初中"
+  "note": "仁和街道公办初中",
+  "alias": ""
  },
  {
   "district": "余杭区",
@@ -2197,7 +2449,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "760",
   "quota26": "65",
-  "note": "仓前街道公办初中"
+  "note": "仓前街道公办初中",
+  "alias": ""
  },
  {
   "district": "余杭区",
@@ -2207,7 +2460,8 @@ window.HZ_SCHOOLS = [
   "type": "公办九年一贯制（内设初中部）",
   "cnt26": "470",
   "quota26": "0",
-  "note": ""
+  "note": "",
+  "alias": ""
  },
  {
   "district": "余杭区",
@@ -2217,7 +2471,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "940",
   "quota26": "124",
-  "note": "仓前街道核心公办初中"
+  "note": "仓前街道核心公办初中",
+  "alias": ""
  },
  {
   "district": "余杭区",
@@ -2227,7 +2482,8 @@ window.HZ_SCHOOLS = [
   "type": "九年一贯制",
   "cnt26": "540",
   "quota26": "37",
-  "note": "含初中部，需摇号"
+  "note": "含初中部，需摇号",
+  "alias": ""
  },
  {
   "district": "余杭区",
@@ -2237,7 +2493,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "220",
   "quota26": "30",
-  "note": "径山镇公办初中"
+  "note": "径山镇公办初中",
+  "alias": ""
  },
  {
   "district": "余杭区",
@@ -2247,7 +2504,8 @@ window.HZ_SCHOOLS = [
   "type": "公办九年一贯制（内设初中部）",
   "cnt26": "240",
   "quota26": "15",
-  "note": ""
+  "note": "",
+  "alias": ""
  },
  {
   "district": "余杭区",
@@ -2257,7 +2515,8 @@ window.HZ_SCHOOLS = [
   "type": "九年一贯制",
   "cnt26": "",
   "quota26": "",
-  "note": "含初中部，需摇号"
+  "note": "含初中部，需摇号",
+  "alias": ""
  },
  {
   "district": "余杭区",
@@ -2267,7 +2526,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "310",
   "quota26": "29",
-  "note": "良渚街道公办初中"
+  "note": "良渚街道公办初中",
+  "alias": ""
  },
  {
   "district": "余杭区",
@@ -2277,7 +2537,8 @@ window.HZ_SCHOOLS = [
   "type": "民办初中",
   "cnt26": "160",
   "quota26": "7",
-  "note": ""
+  "note": "",
+  "alias": ""
  },
  {
   "district": "余杭区",
@@ -2287,7 +2548,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "330",
   "quota26": "0",
-  "note": "未来科技城公办初中"
+  "note": "未来科技城公办初中",
+  "alias": ""
  },
  {
   "district": "余杭区",
@@ -2297,7 +2559,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "396",
   "quota26": "53",
-  "note": "未来科技城公办初中"
+  "note": "未来科技城公办初中",
+  "alias": ""
  },
  {
   "district": "余杭区",
@@ -2307,7 +2570,8 @@ window.HZ_SCHOOLS = [
   "type": "民办初中",
   "cnt26": "72",
   "quota26": "7",
-  "note": ""
+  "note": "",
+  "alias": ""
  },
  {
   "district": "余杭区",
@@ -2317,7 +2581,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "670",
   "quota26": "136",
-  "note": "瓶窑镇核心公办初中"
+  "note": "瓶窑镇核心公办初中",
+  "alias": ""
  },
  {
   "district": "余杭区",
@@ -2327,7 +2592,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "",
   "quota26": "",
-  "note": "百丈镇公办初中"
+  "note": "百丈镇公办初中",
+  "alias": ""
  },
  {
   "district": "余杭区",
@@ -2337,27 +2603,8 @@ window.HZ_SCHOOLS = [
   "type": "公办九年一贯制（内设初中部）",
   "cnt26": "380",
   "quota26": "15",
-  "note": ""
- },
- {
-  "district": "余杭区",
-  "name": "杭州市余杭区绿城育华亲亲学校（初中部）",
-  "tier": 1,
-  "nature": "民办",
-  "type": "民办初中",
-  "cnt26": "92",
-  "quota26": "14",
-  "note": "余杭区民办，普高率92.4%"
- },
- {
-  "district": "余杭区",
-  "tier": 1,
-  "name": "杭州市余杭区育海外国语学校",
-  "nature": "民办",
-  "type": "九年一贯制",
-  "cnt26": "134",
-  "quota26": "18",
-  "note": "含初中部，需摇号"
+  "note": "",
+  "alias": ""
  },
  {
   "district": "余杭区",
@@ -2367,7 +2614,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "920",
   "quota26": "123",
-  "note": "良渚街道核心公办初中"
+  "note": "良渚街道核心公办初中",
+  "alias": ""
  },
  {
   "district": "余杭区",
@@ -2377,7 +2625,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "790",
   "quota26": "107",
-  "note": "良渚街道公办初中"
+  "note": "良渚街道公办初中",
+  "alias": ""
  },
  {
   "district": "余杭区",
@@ -2387,7 +2636,8 @@ window.HZ_SCHOOLS = [
   "type": "九年一贯制",
   "cnt26": "",
   "quota26": "",
-  "note": "含初中部，需摇号"
+  "note": "含初中部，需摇号",
+  "alias": ""
  },
  {
   "district": "余杭区",
@@ -2397,7 +2647,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "610",
   "quota26": "63",
-  "note": "闲林街道核心公办初中"
+  "note": "闲林街道核心公办初中",
+  "alias": ""
  },
  {
   "district": "余杭区",
@@ -2407,7 +2658,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "",
   "quota26": "",
-  "note": "鸬鸟镇公办初中"
+  "note": "鸬鸟镇公办初中",
+  "alias": ""
  },
  {
   "district": "余杭区",
@@ -2417,7 +2669,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "320",
   "quota26": "30",
-  "note": "黄湖镇公办初中"
+  "note": "黄湖镇公办初中",
+  "alias": ""
  },
  {
   "district": "余杭区",
@@ -2427,7 +2680,8 @@ window.HZ_SCHOOLS = [
   "type": "九年一贯制",
   "cnt26": "90",
   "quota26": "",
-  "note": "含初中部，需摇号"
+  "note": "含初中部，需摇号",
+  "alias": ""
  },
  {
   "district": "余杭区",
@@ -2435,19 +2689,21 @@ window.HZ_SCHOOLS = [
   "name": "杭州师范大学附属未来科技城中学",
   "nature": "公办",
   "type": "独立初中",
-  "cnt26": "680",
-  "quota26": "21",
-  "note": "杭州二中教育集团核心校，未来科技城核心公办"
+  "cnt26": "",
+  "quota26": "",
+  "note": "杭州二中教育集团核心校，未来科技城核心公办",
+  "alias": ""
  },
  {
   "district": "余杭区",
-  "name": "杭州师范大学附属未来科技城学校",
+  "name": "杭州师范大学附属未来科技城中学（杭州二中教育集团未来科技城中学）",
   "tier": 2,
   "nature": "公办",
-  "type": "",
-  "cnt26": "",
-  "quota26": "",
-  "note": "杭师大附属公办"
+  "type": "公办独立初中",
+  "cnt26": "680",
+  "quota26": "21",
+  "note": "",
+  "alias": ""
  },
  {
   "district": "余杭区",
@@ -2457,7 +2713,8 @@ window.HZ_SCHOOLS = [
   "type": "九年一贯制",
   "cnt26": "85",
   "quota26": "5",
-  "note": "含初中部，需摇号"
+  "note": "含初中部，需摇号",
+  "alias": ""
  },
  {
   "district": "余杭区",
@@ -2467,7 +2724,8 @@ window.HZ_SCHOOLS = [
   "type": "九年一贯制",
   "cnt26": "",
   "quota26": "",
-  "note": "含初中部，需摇号"
+  "note": "含初中部，需摇号",
+  "alias": ""
  },
  {
   "district": "余杭区",
@@ -2477,7 +2735,8 @@ window.HZ_SCHOOLS = [
   "type": "十二年一贯制",
   "cnt26": "",
   "quota26": "",
-  "note": "含初中部，需摇号"
+  "note": "含初中部，需摇号",
+  "alias": ""
  },
  {
   "district": "余杭区",
@@ -2487,17 +2746,8 @@ window.HZ_SCHOOLS = [
   "type": "九年一贯制",
   "cnt26": "120",
   "quota26": "15",
-  "note": "含初中部，需摇号"
- },
- {
-  "district": "余杭区",
-  "tier": 4,
-  "name": "杭州英特外国语学校",
-  "nature": "民办",
-  "type": "九年一贯制",
-  "cnt26": "410",
-  "quota26": "26",
-  "note": "含初中部，需摇号，余杭头部民办"
+  "note": "含初中部，需摇号",
+  "alias": ""
  },
  {
   "district": "余杭区",
@@ -2507,87 +2757,74 @@ window.HZ_SCHOOLS = [
   "type": "十二年一贯制",
   "cnt26": "285",
   "quota26": "17",
-  "note": "含初中部，需摇号"
+  "note": "含初中部，需摇号",
+  "alias": ""
  },
  {
   "district": "余杭区",
-  "name": "橄榄树学校",
   "tier": 3,
+  "name": "橄榄树学校",
   "nature": "民办",
   "type": "",
   "cnt26": "",
   "quota26": "",
-  "note": "国际化民办"
+  "note": "国际化民办",
+  "alias": ""
  },
  {
   "district": "余杭区",
-  "name": "瓶窑一中",
-  "tier": 4,
-  "nature": "公办",
-  "type": "",
-  "cnt26": "",
-  "quota26": "",
-  "note": "余杭西部乡镇初中"
+  "name": "绿城育华亲亲",
+  "tier": 1,
+  "nature": "民办",
+  "type": "民办初中",
+  "cnt26": "92",
+  "quota26": "14",
+  "note": "",
+  "alias": "杭州市余杭区绿城育华亲亲学校（初中部）"
  },
  {
   "district": "余杭区",
-  "name": "良渚一中",
+  "tier": 1,
+  "name": "育海外国语",
+  "nature": "民办",
+  "type": "九年一贯制",
+  "cnt26": "134",
+  "quota26": "18",
+  "note": "含初中部，需摇号",
+  "alias": "杭州市余杭区育海外国语学校"
+ },
+ {
+  "district": "余杭区",
   "tier": 4,
-  "nature": "公办",
-  "type": "",
-  "cnt26": "",
-  "quota26": "",
-  "note": "良渚板块公办"
+  "name": "英特外国语",
+  "nature": "民办",
+  "type": "九年一贯制",
+  "cnt26": "410",
+  "quota26": "26",
+  "note": "含初中部，需摇号，余杭头部民办",
+  "alias": "杭州英特外国语学校"
  },
  {
   "district": "临平区",
-  "name": "临平一中",
-  "tier": 3,
+  "name": "临平第一中学教育集团南汇中学",
+  "tier": 2,
   "nature": "公办",
-  "type": "",
-  "cnt26": "",
-  "quota26": "",
-  "note": "临平区公办第一"
- },
- {
-  "district": "临平区",
-  "name": "临平三中",
-  "tier": 3,
-  "nature": "公办",
-  "type": "",
-  "cnt26": "",
-  "quota26": "",
-  "note": "临平城区公办"
- },
- {
-  "district": "临平区",
-  "name": "临平五中",
-  "tier": 4,
-  "nature": "公办",
-  "type": "",
-  "cnt26": "",
-  "quota26": "",
-  "note": "临平城区公办"
- },
- {
-  "district": "临平区",
-  "name": "塘栖二中",
-  "tier": 4,
-  "nature": "公办",
-  "type": "",
-  "cnt26": "",
-  "quota26": "",
-  "note": "塘栖板块公办"
+  "type": "公办独立初中",
+  "cnt26": "420",
+  "quota26": "66",
+  "note": "",
+  "alias": ""
  },
  {
   "district": "临平区",
   "tier": 1,
-  "name": "杭州信达外国语学校",
+  "name": "信达外国语",
   "nature": "民办",
   "type": "九年一贯制",
   "cnt26": "520",
   "quota26": "77",
-  "note": "含初中部，需摇号"
+  "note": "含初中部，需摇号",
+  "alias": "杭州信达外国语学校"
  },
  {
   "district": "临平区",
@@ -2597,7 +2834,8 @@ window.HZ_SCHOOLS = [
   "type": "九年一贯制",
   "cnt26": "160",
   "quota26": "23",
-  "note": "含初中部，需摇号"
+  "note": "含初中部，需摇号",
+  "alias": ""
  },
  {
   "district": "临平区",
@@ -2607,7 +2845,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "780",
   "quota26": "123",
-  "note": "含望梅校区、南汇校区，临平核心公办"
+  "note": "含望梅校区、南汇校区，临平核心公办",
+  "alias": ""
  },
  {
   "district": "临平区",
@@ -2617,7 +2856,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "740",
   "quota26": "116",
-  "note": "含梅堰校区、风荷校区，临平城区公办"
+  "note": "含梅堰校区、风荷校区，临平城区公办",
+  "alias": ""
  },
  {
   "district": "临平区",
@@ -2627,7 +2867,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "480",
   "quota26": "60",
-  "note": "临平城区公办初中"
+  "note": "临平城区公办初中",
+  "alias": ""
  },
  {
   "district": "临平区",
@@ -2637,7 +2878,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "690",
   "quota26": "131",
-  "note": "临平城区公办初中"
+  "note": "临平城区公办初中",
+  "alias": ""
  },
  {
   "district": "临平区",
@@ -2647,7 +2889,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "510",
   "quota26": "72",
-  "note": "乔司街道公办初中"
+  "note": "乔司街道公办初中",
+  "alias": ""
  },
  {
   "district": "临平区",
@@ -2657,7 +2900,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "300",
   "quota26": "0",
-  "note": "临平城区公办初中"
+  "note": "临平城区公办初中",
+  "alias": ""
  },
  {
   "district": "临平区",
@@ -2667,7 +2911,8 @@ window.HZ_SCHOOLS = [
   "type": "公办九年一贯制（内设初中部）",
   "cnt26": "330",
   "quota26": "41",
-  "note": ""
+  "note": "",
+  "alias": ""
  },
  {
   "district": "临平区",
@@ -2677,7 +2922,8 @@ window.HZ_SCHOOLS = [
   "type": "九年一贯制",
   "cnt26": "360",
   "quota26": "34",
-  "note": "含初中部"
+  "note": "含初中部",
+  "alias": ""
  },
  {
   "district": "临平区",
@@ -2687,7 +2933,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "660",
   "quota26": "111",
-  "note": "2026年新启用公办初中"
+  "note": "2026年新启用公办初中",
+  "alias": ""
  },
  {
   "district": "临平区",
@@ -2697,7 +2944,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "400",
   "quota26": "84",
-  "note": "塘栖镇核心公办初中"
+  "note": "塘栖镇核心公办初中",
+  "alias": ""
  },
  {
   "district": "临平区",
@@ -2707,7 +2955,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "490",
   "quota26": "60",
-  "note": "崇贤街道公办初中"
+  "note": "崇贤街道公办初中",
+  "alias": ""
  },
  {
   "district": "临平区",
@@ -2717,7 +2966,8 @@ window.HZ_SCHOOLS = [
   "type": "九年一贯制",
   "cnt26": "280",
   "quota26": "43",
-  "note": "含初中部"
+  "note": "含初中部",
+  "alias": ""
  },
  {
   "district": "临平区",
@@ -2727,7 +2977,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "430",
   "quota26": "44",
-  "note": "星桥街道公办初中"
+  "note": "星桥街道公办初中",
+  "alias": ""
  },
  {
   "district": "临平区",
@@ -2737,7 +2988,8 @@ window.HZ_SCHOOLS = [
   "type": "九年一贯制",
   "cnt26": "240",
   "quota26": "12",
-  "note": "含初中部"
+  "note": "含初中部",
+  "alias": ""
  },
  {
   "district": "临平区",
@@ -2747,7 +2999,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "320",
   "quota26": "59",
-  "note": "崇贤街道公办初中"
+  "note": "崇贤街道公办初中",
+  "alias": ""
  },
  {
   "district": "临平区",
@@ -2757,7 +3010,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "410",
   "quota26": "87",
-  "note": "运河街道公办初中"
+  "note": "运河街道公办初中",
+  "alias": ""
  },
  {
   "district": "临平区",
@@ -2767,7 +3021,8 @@ window.HZ_SCHOOLS = [
   "type": "九年一贯制",
   "cnt26": "",
   "quota26": "",
-  "note": "含初中部，需摇号"
+  "note": "含初中部，需摇号",
+  "alias": ""
  },
  {
   "district": "临平区",
@@ -2777,7 +3032,8 @@ window.HZ_SCHOOLS = [
   "type": "九年一贯制",
   "cnt26": "",
   "quota26": "",
-  "note": "含初中部，需摇号"
+  "note": "含初中部，需摇号",
+  "alias": ""
  },
  {
   "district": "临平区",
@@ -2787,7 +3043,8 @@ window.HZ_SCHOOLS = [
   "type": "九年一贯制",
   "cnt26": "580",
   "quota26": "108",
-  "note": "含初中部，需摇号"
+  "note": "含初中部，需摇号",
+  "alias": ""
  },
  {
   "district": "临平区",
@@ -2797,37 +3054,19 @@ window.HZ_SCHOOLS = [
   "type": "十二年一贯制",
   "cnt26": "110",
   "quota26": "11",
-  "note": "含初中部，需摇号"
+  "note": "含初中部，需摇号",
+  "alias": ""
  },
  {
   "district": "临平区",
-  "name": "杭高临平学校",
   "tier": 3,
+  "name": "杭高临平学校",
   "nature": "公办",
   "type": "",
   "cnt26": "",
   "quota26": "",
-  "note": "杭高教育集团新校"
- },
- {
-  "district": "富阳区",
-  "name": "场口中学",
-  "tier": 4,
-  "nature": "公办",
-  "type": "",
-  "cnt26": "",
-  "quota26": "",
-  "note": "富阳场口板块"
- },
- {
-  "district": "富阳区",
-  "name": "富春三中",
-  "tier": 4,
-  "nature": "公办",
-  "type": "",
-  "cnt26": "",
-  "quota26": "",
-  "note": "富阳城区公办"
+  "note": "杭高教育集团新校",
+  "alias": ""
  },
  {
   "district": "富阳区",
@@ -2837,7 +3076,8 @@ window.HZ_SCHOOLS = [
   "type": "九年一贯制",
   "cnt26": "",
   "quota26": "",
-  "note": "含初中部，需摇号"
+  "note": "含初中部，需摇号",
+  "alias": ""
  },
  {
   "district": "富阳区",
@@ -2847,7 +3087,8 @@ window.HZ_SCHOOLS = [
   "type": "九年一贯制",
   "cnt26": "",
   "quota26": "",
-  "note": "含初中部，需摇号"
+  "note": "含初中部，需摇号",
+  "alias": ""
  },
  {
   "district": "富阳区",
@@ -2857,7 +3098,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "",
   "quota26": "",
-  "note": ""
+  "note": "",
+  "alias": ""
  },
  {
   "district": "富阳区",
@@ -2867,7 +3109,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "",
   "quota26": "",
-  "note": ""
+  "note": "",
+  "alias": ""
  },
  {
   "district": "富阳区",
@@ -2877,7 +3120,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "",
   "quota26": "",
-  "note": ""
+  "note": "",
+  "alias": ""
  },
  {
   "district": "富阳区",
@@ -2887,7 +3131,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "",
   "quota26": "",
-  "note": ""
+  "note": "",
+  "alias": ""
  },
  {
   "district": "富阳区",
@@ -2897,7 +3142,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "",
   "quota26": "",
-  "note": "万市镇公办初中"
+  "note": "万市镇公办初中",
+  "alias": ""
  },
  {
   "district": "富阳区",
@@ -2907,7 +3153,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "",
   "quota26": "",
-  "note": "上官乡公办初中"
+  "note": "上官乡公办初中",
+  "alias": ""
  },
  {
   "district": "富阳区",
@@ -2917,17 +3164,19 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "",
   "quota26": "",
-  "note": "东洲街道公办初中"
+  "note": "东洲街道公办初中",
+  "alias": ""
  },
  {
   "district": "富阳区",
-  "tier": null,
+  "tier": 4,
   "name": "杭州市富阳区场口镇中学",
   "nature": "公办",
   "type": "独立初中",
   "cnt26": "",
   "quota26": "",
-  "note": "场口镇公办初中"
+  "note": "场口镇公办初中",
+  "alias": ""
  },
  {
   "district": "富阳区",
@@ -2937,7 +3186,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "",
   "quota26": "",
-  "note": "大源镇公办初中"
+  "note": "大源镇公办初中",
+  "alias": ""
  },
  {
   "district": "富阳区",
@@ -2947,17 +3197,19 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "",
   "quota26": "",
-  "note": "城区核心公办初中"
+  "note": "城区核心公办初中",
+  "alias": ""
  },
  {
   "district": "富阳区",
-  "tier": null,
+  "tier": 4,
   "name": "杭州市富阳区富春第三中学",
   "nature": "公办",
   "type": "独立初中",
   "cnt26": "",
   "quota26": "",
-  "note": "城区核心公办初中"
+  "note": "城区核心公办初中",
+  "alias": ""
  },
  {
   "district": "富阳区",
@@ -2967,7 +3219,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "",
   "quota26": "",
-  "note": "常安镇公办初中"
+  "note": "常安镇公办初中",
+  "alias": ""
  },
  {
   "district": "富阳区",
@@ -2977,7 +3230,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "",
   "quota26": "",
-  "note": "新登镇核心公办初中"
+  "note": "新登镇核心公办初中",
+  "alias": ""
  },
  {
   "district": "富阳区",
@@ -2987,7 +3241,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "",
   "quota26": "",
-  "note": "春建乡公办初中"
+  "note": "春建乡公办初中",
+  "alias": ""
  },
  {
   "district": "富阳区",
@@ -2997,7 +3252,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "",
   "quota26": "",
-  "note": "春江街道公办初中"
+  "note": "春江街道公办初中",
+  "alias": ""
  },
  {
   "district": "富阳区",
@@ -3007,7 +3263,8 @@ window.HZ_SCHOOLS = [
   "type": "九年一贯制",
   "cnt26": "",
   "quota26": "",
-  "note": "含初中部，需摇号"
+  "note": "含初中部，需摇号",
+  "alias": ""
  },
  {
   "district": "富阳区",
@@ -3017,7 +3274,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "",
   "quota26": "",
-  "note": "湖源乡公办初中"
+  "note": "湖源乡公办初中",
+  "alias": ""
  },
  {
   "district": "富阳区",
@@ -3027,7 +3285,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "",
   "quota26": "",
-  "note": "灵桥镇公办初中"
+  "note": "灵桥镇公办初中",
+  "alias": ""
  },
  {
   "district": "富阳区",
@@ -3037,7 +3296,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "",
   "quota26": "",
-  "note": "环山乡公办初中"
+  "note": "环山乡公办初中",
+  "alias": ""
  },
  {
   "district": "富阳区",
@@ -3047,7 +3307,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "",
   "quota26": "",
-  "note": "新登镇公办初中"
+  "note": "新登镇公办初中",
+  "alias": ""
  },
  {
   "district": "富阳区",
@@ -3057,7 +3318,8 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "",
   "quota26": "",
-  "note": "含达夫校区、文豪校区，城区核心公办"
+  "note": "含达夫校区、文豪校区，城区核心公办",
+  "alias": ""
  },
  {
   "district": "富阳区",
@@ -3067,7 +3329,19 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "",
   "quota26": "",
-  "note": "银湖街道核心公办初中"
+  "note": "银湖街道核心公办初中",
+  "alias": ""
+ },
+ {
+  "district": "富阳区",
+  "name": "杭州市富阳区银湖中学（受降中学）",
+  "tier": null,
+  "nature": "公办",
+  "type": "独立初中",
+  "cnt26": "",
+  "quota26": "",
+  "note": "银湖街道核心公办初中",
+  "alias": ""
  },
  {
   "district": "富阳区",
@@ -3077,16 +3351,29 @@ window.HZ_SCHOOLS = [
   "type": "独立初中",
   "cnt26": "",
   "quota26": "",
-  "note": "鹿山街道公办初中"
+  "note": "鹿山街道公办初中",
+  "alias": ""
  },
  {
   "district": "富阳区",
-  "tier": 2,
-  "name": "杭州银湖实验中学",
+  "name": "杭州银湖实验中学（永兴分校）",
+  "tier": null,
   "nature": "民办",
   "type": "独立初中",
   "cnt26": "",
   "quota26": "",
-  "note": "需摇号，富阳头部民办"
+  "note": "需摇号，富阳头部民办",
+  "alias": ""
+ },
+ {
+  "district": "富阳区",
+  "tier": 2,
+  "name": "银湖实验",
+  "nature": "民办",
+  "type": "独立初中",
+  "cnt26": "",
+  "quota26": "",
+  "note": "需摇号，富阳头部民办",
+  "alias": "杭州银湖实验中学"
  }
 ];
