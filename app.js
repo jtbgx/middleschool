@@ -15,6 +15,37 @@
     return schools.some(function (s) { return s.tier === t; });
   });
 
+  var REGION_WORDS = ["上城", "拱墅", "西湖", "滨江", "钱塘", "萧山", "余杭", "临平", "富阳", "临安", "桐庐", "淳安", "建德"];
+  var GEO_HEADS = ["湾", "河", "湖", "山", "江", "岛", "塘", "街道", "镇", "乡"];
+  var SCHOOL_HEADS = ["中学", "学校", "实验", "初级", "第", "一中", "二中", "三中", "四中", "五中", "六中", "十中", "外国语", "教育集团"];
+
+  function sanitizeName(raw) {
+    var s = String(raw || "").trim();
+    if (!s) return s;
+    s = s.replace(/^杭州市?/, "");
+    REGION_WORDS.forEach(function (r) {
+      s = s.split(r + "区").join("");
+      s = s.split(r + "县").join("");
+      s = s.split(r + "市").join("");
+      s = s.split(r + "校区").join("校区");
+      SCHOOL_HEADS.forEach(function (w) {
+        s = s.split(r + w).join(w);
+      });
+    });
+    for (var i = 0; i < REGION_WORDS.length; i++) {
+      var word = REGION_WORDS[i];
+      if (s.indexOf(word) !== 0) continue;
+      var rest = s.slice(word.length);
+      var geoHead = GEO_HEADS.some(function (g) { return rest.indexOf(g) === 0; });
+      if (!geoHead) {
+        s = rest;
+        break;
+      }
+    }
+    s = s.replace(/^[\s\u3000]+|[\s\u3000]+$/g, "");
+    return s || String(raw || "").trim();
+  }
+
   var mode = "mix";
   var count = 20;
   var questions = [];
@@ -134,7 +165,7 @@
     var box = $("questionBox");
     box.textContent = "";
     box.appendChild(el("div", "q-type", q.type === "district" ? "地区题" : "梯队题"));
-    box.appendChild(el("h2", "q-school", q.school.name));
+    box.appendChild(el("h2", "q-school", sanitizeName(q.school.name)));
 
     var note = [];
     if (q.school.nature) note.push(q.school.nature);
